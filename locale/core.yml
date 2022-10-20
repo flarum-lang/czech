@@ -24,7 +24,6 @@ core:
       favicon_text: 'Nahraj obrázek, který se zobrazí jako favicon (náhledová ikonka v prohlížeči) tvého fóra.'
       logo_heading: Logo
       logo_text: 'Nahraj obrázek, který se zobrazí na místě názvu tvého fóra.'
-      submit_button: '=> core.ref.save_changes'
       title: Vzhled
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
@@ -37,11 +36,9 @@ core:
       forum_title_heading: 'Název fóra'
       home_page_heading: 'Hlavní stránka'
       home_page_text: 'Zvol stránku, kterou uvidí uživatelé jako první, když přijdou na tvé fórum.'
-      saved_message: 'Tvé změny byly uloženy.'
       show_language_selector_label: 'Zobrazit výběr jazyků'
       slug_driver_heading: 'Ovladač přepisu názvu do URL: {model}'
       slug_driver_text: 'Zvolte ovladač pro přepis názvu do URL pro tento model.'
-      submit_button: '=> core.ref.save_changes'
       title: 'Základní nastavení'
       welcome_banner_heading: 'Uvítací banner'
       welcome_banner_text: 'Nastav si text uvítacího banneru, který se zobrazí na všech diskuzních stránkách. Využij ho pro přivítání hostů na fóru.'
@@ -95,11 +92,9 @@ core:
       send_test_mail_success: 'Testovací email úspěšně odeslán!'
       send_test_mail_text: 'Pošle email za použití nastavení výše na tvou emailovou adresu, {email}.'
       smtp_heading: 'Nastavení SMTP'
-      submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Konfigurace rozsahu'
-      confirm_uninstall: 'Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?'
       disabled: Deaktivováno
       enable_to_see: 'Povolit tomuto rozšíření zobrazovat a měnit nastavení.'
       enabled: Povoleno
@@ -119,8 +114,6 @@ core:
         button_label: README
         no_readme: 'Vypadá to, že toto rozšíření nemá soubor README'
         title: '{extName} dokumentace'
-      saved_message: 'Změny byly uloženy.'
-      uninstall_button: Odinstalovat
     header:
       get_help: 'Získat pomoc'
       log_out_button: '=> core.ref.log_out'
@@ -175,12 +168,10 @@ core:
       sign_up_label: Registrace
       start_discussions_label: 'Začít diskuzi'
       title: Oprávnění
-      view_discussions_label: 'Zobrazit diskuzi'
       view_forum_label: 'Zobrazení fóra (dizkuze a uživatele)'
       view_hidden_groups_label: 'Zobrazit schované odznáčky skupiny'
       view_last_seen_at_label: 'Vždy zobrazit poslední čas zobrazení'
       view_post_ips_label: 'Zobrazit IP adresu příspěvku'
-      view_user_list_label: 'Zobrazit seznam uživatelů'
     permissions_controls:
       allow_indefinitely_button: Kdykoli
       allow_some_minutes_button: '{count, plural, one {První # minutu} other {Prvních # minut}}'
@@ -290,21 +281,8 @@ core:
     discussion_list:
       empty_text: 'Nebyla nalezena žádná vlákna.'
       load_more_button: '=> core.ref.load_more'
-      mark_as_read_tooltip: 'Označit jako přečtené'
       replied_text: 'Uživatel {username} odpověděl {ago}'
       started_text: 'Uživatel {username} začal {ago}'
-    edit_user:
-      activate_button: 'Aktivovat účet'
-      email_heading: '=> core.ref.email'
-      email_label: '=> core.ref.email'
-      groups_heading: Skupiny
-      password_heading: '=> core.ref.password'
-      password_label: '=> core.ref.password'
-      set_password_label: 'Set new password'
-      submit_button: '=> core.ref.save_changes'
-      title: 'Úprava účtu'
-      username_heading: '=> core.ref.username'
-      username_label: '=> core.ref.username'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
