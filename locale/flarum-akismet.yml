@@ -6,7 +6,11 @@ flarum-akismet:
   admin:
     akismet_settings:
       api_key_label: 'API klíč'
+      delete_blatant_spam_help: 'Pokud Akismet zjistí, že je příspěvek zjevný spam, místo označení příspěvek automaticky odstraní'
+      delete_blatant_spam_label: 'Automaticky odstraňovat zjevný spam'
       title: 'Akismet Nastavení'
+    permissions:
+      bypass_akismet: 'Obejít Akismet'
   forum:
     post:
       akismet_flagged_text: 'Akismet označen jako spam'
