@@ -6,7 +6,7 @@ fof-links:
   admin:
     edit_link:
       delete_link_button: 'Smazat odkaz'
-      delete_link_confirmation: 'Opravdu chcete tento odkaz odstranit?'
+      delete_link_confirmation: 'Opravdu chcete tento odkaz smazat?'
       everyone-label: Všichni
       guests-label: Hosté
       icon_label: '=> core.ref.icon'
@@ -18,6 +18,7 @@ fof-links:
       title: '=> fof-links.ref.create_link'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
+      url_description: 'Pro zobrazení jako popisek ponechte prázdné.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
       visibility: 'Viditelnost odkazů'
@@ -30,4 +31,4 @@ fof-links:
     create_link: 'Vytvořit odkaz'
     links: Odkazy
     title: Název
-    url: URL
+    url: 'Adresa URL'
