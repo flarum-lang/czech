@@ -7,7 +7,11 @@ askvortsov-categories:
     basics:
       categories_label: Kategorie
     headings:
+      child_display: 'Zobrazení podřízené kategorie'
+      layout: Rozložení
       nav: Navigace
+      parent_display: 'Zobrazení nadřazené kategorie'
+      performance: Výkon
     help:
       child_bare_icon: 'Měly by se ikony v podřízených kategoriích zobrazovat bez kruhového pozadí?'
       full_page_desktop: 'Mělo by být navigační menu v postranním panelu sbaleno na jeden řádek (jako na tradiční stránce se štítky)? Tím se také skryjí widgety (například statistika fóra Friends of Flarum) z navigačního panelu stránky kategorií.'
@@ -22,3 +26,19 @@ askvortsov-categories:
       parent_remove_last_discussion: 'Skrýt nejnovější diskuze pro štítky nejvyšší úrovně?'
       parent_remove_stats: 'Skrýt statistiky pro štítky nejvyšší úrovně?'
       small_forum_optimized: 'Optimalizovat pro malá fóra?'
+    title: 'Nastavení kategorií'
+  forum:
+    all_categories:
+      meta_description_text: 'Všechny kategorie'
+      meta_title_text: '=> askvortsov-categories.ref.categories'
+    header:
+      back_to_categories_tooltip: 'Zpět na seznam kategorií'
+    index:
+      categories_link: '=> askvortsov-categories.ref.categories'
+    last_discussion_widget:
+      no_discussions: 'Žádné diskuze (zatím!)'
+    stat-widgets:
+      discussion_label: Diskuze
+      post_label: Příspěvky
+  ref:
+    categories: Kategorie
