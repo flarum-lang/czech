@@ -12,7 +12,7 @@ fof-terms:
       save-policy: 'Uložit zásady'
       set-to-now: 'Nastavit na nyní'
     messages:
-      delete-policy-confirmation: "Tím se z databáze trvale odstraní zásada {název} a související data přijetí. Ujistěte se, že jste si vytvořili zálohu těchto dat, pokud je potřebujete z právních důvodů. Jste si jisti, že chcete tuto zásadu odstranit ?\n"
+      delete-policy-confirmation: "Tím se z databáze trvale odstraní zásada {name} a související data přijetí. Ujistěte se, že jste si vytvořili zálohu těchto dat, pokud je potřebujete z právních důvodů. Opravdu chcete tuto zásadu odstranit?\n"
     permissions:
       export-policies: 'Export dat všech uživatelů a zásad'
       postpone-policies-accept: 'Může odložit přijetí nových podmínek'
@@ -24,7 +24,7 @@ fof-terms:
       name-help: 'Tento název se zobrazí vedle zaškrtávacího políčka a jako název modálního okna aktualizace.'
       terms-updated-at: 'Aktualizováno na'
       terms-updated-at-help: "Datum poslední aktualizace podmínek. Nastavení této hodnoty bude vyžadovat, aby všichni uživatelé, kteří přijali podmínky před tímto datem, přijali podmínky znovu. Musí být v minulosti (jinak by uživatelé nikdy nemohli akceptovat po tomto datu a dostat se přes modální okno).\n"
-      terms-updated-at-placeholder: 'YYYY-MM-DD (hh:mm:ss)'
+      terms-updated-at-placeholder: 'DD-MM-YYYY (hh:mm:ss)'
       update-message: 'Aktualizovat zprávu'
       update-message-help: 'Zpráva, která se zobrazí stávajícím uživatelům, kteří ještě nepřijali nejnovější podmínky.'
       url: URL

@@ -12,5 +12,5 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Skrytí tlačítka pro výběr emoji na fóru Flarum'
       searchPosition: 'Přesunutí vyhledávání a tónů na konec'
   forum:
-    picker_button: 'Emoji Picker'
+    picker_button: 'Vybrat Emoji'
     search_placeholder: Vyhledávání...

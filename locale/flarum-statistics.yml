@@ -25,6 +25,8 @@ flarum-statistics:
       mini_heading: 'Statistiky fóra'
       no_data: 'Pro tento rozsah dat nejsou k dispozici žádné údaje.'
       posts_heading: '=> core.ref.posts'
+      previous_28_days_label: 'Předchozích 28 dní'
+      previous_7_days_label: 'Předchozích 7 dní'
       previous_period: 'Předchozí období'
       today_label: Dnes
       total_label: Celkem

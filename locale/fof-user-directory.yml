@@ -8,6 +8,7 @@ fof-user-directory:
       view_user_directory: 'Zobrazit adresář uživatelů'
     settings:
       default-sort: 'Výchozí třídění'
+      disable-global-search-source: 'Nepřidávat Adresář uživatelů do globálního vyhledávacího pole Flarum'
       link: 'Přidání odkazu na domovskou stránku, aby uživatelé mohli vidět adresář'
       use-small-cards: 'Použít malé uživatelské karty'
   forum:
@@ -19,10 +20,16 @@ fof-user-directory:
       load_more_button: '=> core.ref.load_more'
       nav: 'Adresář uživatelů'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one {{count} diskuze} other {{count} diskuzí}}'
+        post-count: '{count, plural, one {{count} příspěvek} other {{count} příspěvků}}'
     search:
       field:
         placeholder: 'Vyhledat všechny uživatele'
-      users_heading: 'Vyhledat všechny uživatele  pro "{query}"'
+      kinds:
+        group: Skupina
+        text: 'Volný text'
+      users_heading: 'Vyhledat všechny uživatele pro "{query}"'
   lib:
     sort:
       default: Výchozí

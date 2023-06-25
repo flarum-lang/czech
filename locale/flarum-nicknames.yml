@@ -9,8 +9,11 @@ flarum-nicknames:
     settings:
       max_label: 'Maximální délka přezdívky'
       min_label: 'Minimální délka přezdívky'
+      random_username_help: 'Tím se při registraci skryje vstup `username` a místo něj se použije náhodné číslo. Pole `nickname` bude také povinné. Toto se projeví pouze v případě, že je povoleno "Povolit nastavení přezdívky při registraci".'
+      random_username_label: 'Náhodný výběr uživatelských jmen'
       regex_label: 'Regulární výraz pro validaci'
-      unique_label: 'Požadovat unikátní přezdívky?'
+      set_on_registration_label: 'Povolit nastavení přezdívky při registraci'
+      unique_label: 'Vyžadovat jedinečné přezdívky'
     wrong_driver: 'Aby toto rozšíření fungovalo, musíš na stránce <a><strong>Základní nastavení</strong></a> vybrat jako ovladač, který se má použít pro zobrazení uživatelských jmen, možnost "nickname".'
   api:
     invalid_nickname_message: 'Tato přezdívka je neplatná. Další informace o pravidlech pro přezdívky získáte od správce fóra.'
@@ -20,8 +23,11 @@ flarum-nicknames:
       title: '=> flarum-nicknames.ref.change_nickname'
     edit_user:
       nicknames_heading: '=> flarum-nicknames.ref.change_nickname'
-      nicknames_text: Přezdívka
+      nicknames_text: '=> flarum-nicknames.ref.nickname'
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
+    sign_up:
+      nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
     change_nickname: 'Změnit přezdívku'
+    nickname: Přezdívka
