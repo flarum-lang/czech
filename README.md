@@ -78,6 +78,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-drafts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-drafts/cs/) |
 | [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-forum-statistics-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-forum-statistics-widget/cs/) |
 | [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/cs/) |
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/cs/) |
@@ -96,6 +97,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/askvortsov-markdown-tables/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-markdown-tables/cs/) |
 | [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/clarkwinkelmann-emojionearea/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea/cs/) |
 | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views/cs/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/cs/) |
