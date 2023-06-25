@@ -5,20 +5,37 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Zabokovat uživatele'
+      suspend_users_label: 'Pozastavit uživatele'
+  email:
+    no_reason_given: 'Důvod pozastavení nebyl uveden.'
+    suspended:
+      body: "Ahoj {recipient_display_name},\n\nByl/a jste pozastaven/a z následujícího důvodu:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Váš účet byl pozastaven'
+    unsuspended:
+      body: "Ahoj {recipient_display_name},\n\nBylo vám zrušeno pozastavení činnosti. Na fórum se můžete vrátit kliknutím na následující odkaz:\n\n{forum_url}\n"
+      subject: 'Pozastavení vašeho účtu bylo zrušeno'
   forum:
     notifications:
-      user_suspended_text: '{username} tě zablokoval za {timeReadable}'
-      user_unsuspended_text: '{username} tě odblokoval'
+      user_suspended_indefinite_text: 'Byli jste pozastaveni na dobu neurčitou'
+      user_suspended_text: 'Byli jste pozastaveni na dobu {timeReadable}'
+      user_unsuspended_text: 'Byla vám zrušena pozastavená činnost'
     suspend_user:
-      indefinitely_label: 'Zablokován navždy'
+      display_message: 'Zpráva pro uživatele'
+      indefinitely_label: 'Pozastaven na dobu neurčitou'
       limited_time_days_text: ' dnů'
-      limited_time_label: 'Zablokován na určitý čas...'
+      limited_time_label: 'Pozastaven na určitý čas...'
       not_suspended_label: Nezablokován
-      status_heading: 'Status Zablokování'
+      placeholder_optional: Volitelné
+      reason: 'Důvod pozastavení'
+      status_heading: 'Stav pozastavení'
       submit_button: '=> core.ref.save_changes'
-      title: 'Zablokovat {username}'
+      title: 'Pozastavit uživatele {username}'
+    suspension_info:
+      dismiss_button: Zrušit
+      indefinite: 'Jedná se o pozastavení na dobu neurčitou'
+      limited: 'Toto pozastavení bude platit do {date}'
+      title: 'Tento účet je pozastaven'
     user_badge:
-      suspended_tooltip: Zablokován
+      suspended_tooltip: Pozastaven
     user_controls:
-      suspend_button: Zablokovat
+      suspend_button: Pozastavit

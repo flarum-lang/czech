@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: 'Obcházení požadavků na označení'
       restrict_by_tag_heading: 'Omezit Tagem'
       tag_discussions_label: 'Otagovat diskuze'
+    settings:
+      button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' do '
       required_primary_heading: 'Požadovaný Počet Hlavních Tagů'
@@ -52,7 +54,7 @@ flarum-tags:
       submit_button: '=> core.ref.okay'
       title: 'Volba štítků tvého tématu'
     composer_discussion:
-      choose_tags_link: 'Zvol štítky'
+      choose_tags_link: '=> flarum-tags.ref.choose_tags'
     discussion_controls:
       edit_tags_button: 'Upravit štítky'
     header:
@@ -62,14 +64,21 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: 'Beze štítku'
     post_stream:
-      added_and_removed_tags_text: '{username} přidal {tagsAdded} a odebral {tagsRemoved}.'
-      added_tags_text: '{username} přidal {tagsAdded}.'
-      removed_tags_text: '{username} odebral {tagsRemoved}.'
+      added_and_removed_tags_text: '{username} přidal {tagsAdded} a odebral {tagsRemoved} {time}.'
+      added_tags_text: '{username} přidal {tagsAdded} {time}.'
+      removed_tags_text: '{username} odebral {tagsRemoved} {time}.'
       tags_text: '{count, plural, one {{tags} štítek} other {{tags} štítků}}'
     tag:
       meta_description_text: 'Všechny diskuze se štítkem {tag}'
   lib:
     deleted_tag_text: 'Smazaný štítek'
+    tag_selection_modal:
+      bypass_requirements: 'Obejít požadavky na štítky'
+      choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      submit_button: '=> core.ref.okay'
+      title: '=> flarum-tags.ref.choose_tags'
   ref:
+    choose_tags: 'Vybrat štítky'
     name: Název
     tags: Štítky
