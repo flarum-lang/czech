@@ -14,6 +14,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
