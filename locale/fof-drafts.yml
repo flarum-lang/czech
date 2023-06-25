@@ -20,13 +20,21 @@ fof-drafts:
       delete_button: 'Smazat koncept'
       empty_text: 'Neuložili jste žádné koncepty'
       schedule_button: '=> fof-drafts.ref.schedule_draft'
+      scheduled_icon_tooltip: 'Naplánováno na {datetime}'
       title: Koncepty
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      reschedule_button: Přeplánovat
+      schedule_button: Naplánovat
       schedule_time_preview: 'Tento koncept bude automaticky zveřejněn <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Neplatné datum a/nebo čas'
+      scheduled_error: 'Nelze naplánovat koncept: {error}.'
+      scheduled_text: 'Aktuálně je zveřejnění naplánováno na {datetime}.'
+      text: 'Naplánujte si automatické zveřejnění konceptu na pozdější dobu!'
       title: '=> fof-drafts.ref.schedule_draft'
+      unschedule_button: 'Zrušit naplánování'
+      unschedule_warning: 'Opravdu chcete zrušit naplánování tohoto konceptu?'
     user:
       settings:
         draft_autosave_enable: 'Povolit automatické ukládání konceptů?'

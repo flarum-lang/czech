@@ -45,9 +45,16 @@ core:
       title: 'Základní nastavení'
       welcome_banner_heading: 'Uvítací banner'
       welcome_banner_text: 'Nastav si text uvítacího banneru, který se zobrazí na všech diskuzních stránkách. Využij ho pro přivítání hostů na fóru.'
+    create_user:
+      email_confirmed_label: 'Vyžadovat od uživatele potvrzení tohoto e-mailu'
+      submit_and_create_another_button: 'Vytvořit a přidat další'
     dashboard:
       clear_cache_button: 'Vymazat mezipaměť'
       description: 'Přehled vašeho fóra.'
+      io_error_message: 'Do souborového systému nelze zapisovat. Zkontrolujte oprávnění souborového systému a zkuste to znovu. Nebo zkuste akci spustit z příkazového řádku.'
+      status:
+        scheduler:
+          never-run: 'Nikdy nespuštěno'
       title: Nástěnka
       tools_button: Nástroje
     edit_css:
@@ -98,6 +105,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Konfigurace rozsahu'
+      confirm_purge: 'Vyčištění odstraní všechny záznamy z databáze a prostředky související s rozšířením. Rozšíření se neodinstaluje, to je nutné provést prostřednictvím nástroje Composer. Opravdu chcete pokračovat?'
       disabled: Deaktivováno
       enable_to_see: 'Povolit tomuto rozšíření zobrazovat a měnit nastavení.'
       enabled: Povoleno
@@ -147,8 +155,10 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Povolit mazání vlastních příspěvků'
       allow_post_editing_label: 'Povolit úpravu příspěvků'
       allow_renaming_label: 'Povolit zbývající'
+      create_access_token_label: 'Vytvořit přístupový token'
       create_heading: Vytvořit
       delete_discussions_forever_label: 'Smazat diskuze navždy'
       delete_discussions_label: 'Smazat diskuze'
@@ -191,6 +201,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Zvolit obrázek…'
     users:
+      create_user_button: 'Nový uživatel'
       description: 'Stránkovaný seznam všech uživatelů vašeho fóra.'
       grid:
         columns:
@@ -215,6 +226,9 @@ core:
         invalid_column_content: Neplatný
       pagination:
         back_button: 'Předchozí stránka'
+        first_button: 'Přejít na první stránku'
+        go_to_page_textbox_a11y_label: 'Přejít přímo na číslo stránky'
+        last_button: 'Přejít na poslední stránku'
         next_button: 'Další stránka'
         page_counter: 'Strana {current} z {total}'
       title: '=> core.ref.users'
@@ -289,7 +303,7 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Zaslali jsme ti e-mail s odkazem na změnu hesla. Pokud jsi ho neobdržel, podívej se do spamu.'
+      email_sent_message: 'Pokud je vámi zadaný e-mail registrovaný na této stránce, zašleme vám e-mail s odkazem na obnovení hesla. Pokud ho během jedné nebo dvou minut neobdržíte, zkontrolujte složku nevyžádané pošty.'
       not_found_message: 'Tato e-mailová adresa není v naší databázi.'
       submit_button: 'Obnovit heslo'
       text: 'Zadej svou e-mailovou adresu a my ti pošleme e-mail s odkazem na jeho resetování.'
@@ -333,6 +347,8 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Přezdívka nebo e-mail'
     notifications:
+      delete_all_confirm: 'Opravdu chcete smazat všechna oznámení? Tuto akci nelze vrátit zpět'
+      delete_all_tooltip: 'Smazat všechna oznámení'
       discussion_renamed_text: '{username} změnil nadpis'
       empty_text: 'Žádná oznámení'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
@@ -359,7 +375,7 @@ core:
       viewing_text: '{count, plural, one {{index} z {formattedCount} příspěvku} other {{index} z {formattedCount} příspěvků}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Původní nadpis byl: „{old}“'
-      discussion_renamed_text: '{username} změnil nadpis na {new}.'
+      discussion_renamed_text: '{username} změnil nadpis na {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: 'o {period} později'
