@@ -6,3 +6,12 @@ flarum-markdown:
   lib:
     composer:
       bold_tooltip: 'Přidat tučné písmo'
+      code_tooltip: 'Vložit kód'
+      header_tooltip: 'Přidat nadpis'
+      image_tooltip: 'Přidat obrázek'
+      italic_tooltip: 'Přidat kurzívu'
+      link_tooltip: 'Přidat odkaz'
+      ordered_list_tooltip: 'Přidat číslovaný seznam'
+      quote_tooltip: 'Přidat citaci'
+      strikethrough_tooltip: 'Přeškrtnuté písmo'
+      unordered_list_tooltip: 'Nečíslovaný seznam'
