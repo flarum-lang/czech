@@ -3,14 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-markdown:
-  forum:
+  lib:
     composer:
-      bold_tooltip: 'Přidej tučný text'
-      code_tooltip: 'Vlož kód'
-      header_tooltip: 'Přidej nadpis'
-      image_tooltip: 'Přidej obrázek'
-      italic_tooltip: 'Přidej kurzívu'
-      link_tooltip: 'Přidej odkaz'
-      ordered_list_tooltip: 'Přidej číslovaný seznam'
-      quote_tooltip: 'Vlož citaci'
-      unordered_list_tooltip: 'Přidej odrážkový seznam'
+      bold_tooltip: 'Přidat tučné písmo'
