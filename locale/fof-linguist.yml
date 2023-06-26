@@ -8,7 +8,9 @@ fof-linguist:
       apply: Použít
       copy-original: 'Kopírovat původní text'
       delete-all: 'Smazat všechny překlady'
+      delete-all-confirm: "Tím odstraníte VŠECHNY vlastní překlady {count}. Ujistěte se, že jste vyexportovali nebo zálohovali vše, co jste si chtěli ponechat.\n"
       delete-redundant: 'Smazat nadbytečné překlady'
+      delete-redundant-confirm: "Tím se odstraní překlady {count}, které mají stejné původní a vlastní hodnoty. To může být užitečné při čištění po aktualizaci jazykového balíčku.\n"
       load-more: 'Načíst další'
       reset: 'Obnovit původní'
     clear-cache:
@@ -27,11 +29,23 @@ fof-linguist:
         total: Celkem
       count:
         details: 'Celkem {total} / Původní {original} / Vlastní {custom}'
+        percent: '{percent} %'
+        total: '{translated} / {total}'
       total-options:
         count: Počet
         percent: Procenta
     export:
+      download: Stáhnout
+      include-all: 'Zahrnout překlady definované pro "Všechny" jazyky'
+      include-originals: 'Zahrnout původní překlady'
+      locale: Lokalizace
+      namespace: 'Obor názvů'
+      namespace-all: Vše
+      output: Výstup
+      output-empty: 'Prázdný výstup'
+      output-loading: 'Načítání výstupu…'
       title: Exportovat
+      warning: "Formát exportu používá překladové soubory Flarum založené na jazyce Yaml a je určen ke sdílení překladů mezi fóry a správci jazykových balíčků. Formát není určen k\_přesunu všech překladů do nového fóra. V\_závislosti na vašem případu použití může být lepším nápadem přímé kopírování databáze.\n"
     filters:
       for-extension: 'Pro rozšíření'
       frontend: 'Pro FrontEnd'
@@ -48,6 +62,24 @@ fof-linguist:
         original: Původní
         own: Vlastní
       with-own-translations: 'Mé překlady'
+    import:
+      input: Vstup
+      input-placeholder: 'Sem přetáhněte nebo vložte soubor Yaml'
+      locale: Lokalizace
+      override-existing: 'Přepsat mé stávající vlastní překlady'
+      results: "Import je dokončen. {imported} řetězce byly importovány a {identical} shodné řetězce byly přeskočeny. Stránka se nyní obnoví a zobrazí nové překlady.\n"
+      results-with-ignore: "Import je dokončen. {imported} řetězce byly importovány, {ignored} existující řetězce byly ignorovány a {identical} identické řetězce byly přeskočeny. Stránka se nyní obnoví a zobrazí nové překlady.\n"
+      submit: Importovat
+      title: Importovat
+    known-frontend:
+      admin: Admin
+      api: API
+      forum: Fórum
+      lib: 'Lib (používá se na fóru i v administraci)'
+      ref: 'Ref (opakované použití v jiných klíčích)'
+    known-namespace:
+      core: 'Flarum Core'
+      validation: 'Chyby validace'
     locales:
       all: Vše
     permissions:
