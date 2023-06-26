@@ -81,7 +81,9 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-cookie-consent/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/cs/) |
 | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-drafts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-drafts/cs/) |
+| [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-formatting/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-formatting/cs/) |
 | [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-forum-statistics-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-forum-statistics-widget/cs/) |
+| [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-linguist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-linguist/cs/) |
 | [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/cs/) |
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/cs/) |
 | [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-recaptcha/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-recaptcha/cs/) |
