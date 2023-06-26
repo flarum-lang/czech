@@ -34,6 +34,7 @@ CHANGELOG
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
