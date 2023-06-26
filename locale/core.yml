@@ -221,6 +221,8 @@ core:
       description: 'Stránkovaný seznam všech uživatelů vašeho fóra.'
       grid:
         columns:
+          display_name:
+            title: 'Zobrazené jméno'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
