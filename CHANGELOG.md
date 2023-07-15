@@ -48,5 +48,6 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
