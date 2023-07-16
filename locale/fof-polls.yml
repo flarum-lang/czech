@@ -12,18 +12,45 @@ fof-polls:
       start: 'Přidat anketu'
       view_results_without_voting: 'Zobrazit výsledky bez hlasování'
       vote: 'Hlasování v anketách'
+    settings:
+      allow_option_image: 'Umožnit zadat adresu URL obrázku pro každou možnost ankety'
+      max_options: 'Maximální počet možností v jedné anketě'
   forum:
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'Nemáte oprávnění ke spuštění ankety.'
     days_remaining: 'Anketa končí {time}.'
+    max_votes_allowed: 'V anketě můžete hlasovat pro {max, plural, one {# možnost} few {# možnosti} other {# možností}}.'
     modal:
       add_option_label: 'Přidat možnost'
       add_title: 'Přidat anketu'
+      allow_multiple_votes_label: 'Umožnit uživatelům hlasovat pro více možností'
       date_placeholder: 'Datum ukončení ankety (volitelné)'
       edit_title: 'Upravit anketu'
-      include_question: 'Musíte uvést otázku'
+      hide_votes_label: 'Skrýt hlasy, dokud anketa neskončí'
+      image_option_placeholder: 'Adresa URL obrázku (volitelné)'
+      include_question: 'Musíte zadat otázku'
+      max: 'Můžete zadat maximální počet odpovědí: {max}'
+      max_votes_help: 'Nastavte na 0, aby uživatelé mohli hlasovat pro všechny možnosti.'
+      max_votes_label: 'Max. počet hlasů na jednoho uživatele'
+      min: 'Musíte zadat minimálně 2 odpovědi'
+      no_voters: 'Bez hlasů'
+      option_placeholder: Odpověď
+      options_label: Odpovědi
+      public_poll_label: 'Umožnit uživatelům zobrazit, kdo hlasoval'
+      question_placeholder: Otázka
+      submit: Odeslat
+    moderation:
+      add: 'Přidat anketu'
+      delete: 'Smazat anketu'
+      delete_confirm: 'Opravdu chcete tuto anketu smazat?'
+      edit: 'Upravit anketu'
     no_permission: 'Nemáte oprávnění hlasovat'
     poll_ended: 'Tato anketa byla ukončena.'
     public_poll: 'Zobrazit hlasující'
+    tooltip:
+      badge: Anketa
+      votes: '{count, plural, one {# hlas} few {# hlasy} other {# hlasů}}'
+    votes_modal:
+      title: Hlasující
