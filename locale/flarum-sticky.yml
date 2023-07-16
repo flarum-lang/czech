@@ -5,7 +5,7 @@
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Připínací diskuze'
+      sticky_discussions_label: 'Připnout diskuze'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
@@ -16,4 +16,4 @@ flarum-sticky:
       discussion_stickied_text: '{username} připnul diskuzi {time}.'
       discussion_unstickied_text: '{username} odepnul diskuzi {time}.'
   ref:
-    sticky: Připnuté
+    sticky: Připnout
