@@ -80,6 +80,7 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-cookie-consent/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/cs/) |
+| [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-default-group/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-default-group/cs/) |
 | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-drafts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-drafts/cs/) |
 | [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-formatting/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-formatting/cs/) |
 | [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/fof-forum-statistics-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-forum-statistics-widget/cs/) |
