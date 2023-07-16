@@ -42,6 +42,7 @@ CHANGELOG
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
