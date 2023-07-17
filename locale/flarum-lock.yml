@@ -5,7 +5,7 @@
 flarum-lock:
   admin:
     permissions:
-      lock_discussions_label: 'Zamknout diskuzi'
+      lock_discussions_label: 'Zamknout diskuze'
   forum:
     badge:
       locked_tooltip: Zamčeno
@@ -13,9 +13,9 @@ flarum-lock:
       lock_button: Zamknout
       unlock_button: Odemknout
     notifications:
-      discussion_locked_text: 'Uživatel {username} uzamknul'
+      discussion_locked_text: 'Uživatel {username} zamknul diskuzi'
     post_stream:
-      discussion_locked_text: 'Uživatel {username} zamknul toto téma {time}.'
-      discussion_unlocked_text: 'Uživatel {username} odemknul toto téma {time}.'
+      discussion_locked_text: 'Uživatel {username} zamknul tuto diskuzi {time}.'
+      discussion_unlocked_text: 'Uživatel {username} odemknul tuto diskuzi {time}.'
     settings:
       notify_discussion_locked_label: 'Někdo zamkne diskuzi, kterou jsem založil'
