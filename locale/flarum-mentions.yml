@@ -4,9 +4,11 @@
 
 flarum-mentions:
   admin:
+    permissions:
+      mention_groups_label: 'Zmiňované skupiny'
     settings:
       allow_username_format_label: 'Povolit formát zmínky o uživatelském jménu (@Username)'
-      allow_username_format_text: "Aktuální formát pro zmínky o uživatelích je @\"Display Name\"#ID.\nToto nastavení umožňuje použití starého formátu @Username, nicméně při uložení bude stále převeden na nový formát.\n"
+      allow_username_format_text: "Aktuální formát pro zmínky uživatelů je @\"ZobrazovanéJméno\"#ID.\nToto nastavení umožňuje použití starého formátu @UživatelskéJméno, nicméně při uložení bude převeden na nový formát.\n"
   email:
     group_mentioned:
       body: "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} se zmínil o skupině, jejímž jste členem v {title}.\n\n{url}\n\n---\n\n{content}\n"
@@ -25,12 +27,14 @@ flarum-mentions:
       deleted_text: '[neznámá skupina]'
     mentioned_by:
       load_more_button: '=> core.ref.load_more'
+      title: 'Odpovědi na tento příspěvek'
     notifications:
       group_mentioned_text: '{username} zmínil skupinu, jejímž jste členem'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: 'Uživatel {username} odpověděl na váš příspěvek'
       user_mentioned_text: 'Uživatel {username} se o vás zmínil'
     post:
+      mentioned_by_more_text: '{count, plural, one {# další odpověď} few {# další odpovědi} other {# dalších odpovědí}}.'
       mentioned_by_self_text: '{users} na toto odpověděli.'
       mentioned_by_text: '{users} na toto odpověděli.'
       others_text: '=> core.ref.some_others'
@@ -38,7 +42,7 @@ flarum-mentions:
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
     post_mention:
-      deleted_text: '[unknown]'
+      deleted_text: '[neznámý]'
     settings:
       notify_group_mentioned_label: 'Někdo se v příspěvku zmíní o skupině, jejímž jsem členem'
       notify_post_mentioned_label: 'Někdo odpoví na jeden z mých příspěvků'
