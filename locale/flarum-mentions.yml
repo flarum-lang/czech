@@ -8,6 +8,9 @@ flarum-mentions:
       allow_username_format_label: 'Povolit formát zmínky o uživatelském jménu (@Username)'
       allow_username_format_text: "Aktuální formát pro zmínky o uživatelích je @\"Display Name\"#ID.\nToto nastavení umožňuje použití starého formátu @Username, nicméně při uložení bude stále převeden na nový formát.\n"
   email:
+    group_mentioned:
+      body: "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} se zmínil o skupině, jejímž jste členem v {title}.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} zmínil skupinu, jejímž jste členem, v {title}'
     post_mentioned:
       body: "Ahoj {recipient_display_name}!\n\n{replier_display_name} odpověděl na tvůj příspěvek (#{post_number}) v {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} odpověděl na tvůj příspěvek v {title}'
@@ -18,6 +21,8 @@ flarum-mentions:
     composer:
       mention_tooltip: 'Zmínit uživatele, skupinu nebo příspěvek'
       reply_to_post_text: 'Odpovědět na příspěvek č. {number}'
+    group_mention:
+      deleted_text: '[neznámá skupina]'
     mentioned_by:
       load_more_button: '=> core.ref.load_more'
     notifications:

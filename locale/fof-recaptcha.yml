@@ -5,10 +5,13 @@
 fof-recaptcha:
   admin:
     permissions:
-      post_without_captcha: 'Vytváření příspěvků a diskusí bez captcha'
+      post_without_captcha: 'Vytváření příspěvků a diskuzí bez captcha'
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Získejte své přihlašovací údaje Google reCAPTCHA <a> zde </a>.'
       secret_key_label: 'Tajný klíč (Secret Key)'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key_label: 'Klíč stránky (Site Key)'
       type_label: 'Typ reCAPTCHA'
   forum:
