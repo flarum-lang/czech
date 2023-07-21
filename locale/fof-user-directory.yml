@@ -7,9 +7,9 @@ fof-user-directory:
     permissions:
       view_user_directory: 'Zobrazit adresář uživatelů'
     settings:
-      default-sort: 'Výchozí třídění'
+      default-sort: 'Výchozí řazení'
       disable-global-search-source: 'Nepřidávat Adresář uživatelů do globálního vyhledávacího pole Flarum'
-      link: 'Přidání odkazu na domovskou stránku, aby uživatelé mohli vidět adresář'
+      link: 'Přidat odkaz na domovskou stránku, aby uživatelé mohli zobrazit adresář'
       use-small-cards: 'Použít malé uživatelské karty'
   forum:
     header:
