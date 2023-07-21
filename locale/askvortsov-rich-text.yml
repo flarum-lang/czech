@@ -3,16 +3,42 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 askvortsov-rich-text:
+  admin:
+    settings:
+      toggle_on_editor: 'Zobrazit v editoru přepínač režimu formátovaného textu?'
+  forum:
+    settings:
+      composer_heading: Skladatel
+      rich_text_compact_paragraphs_label: 'Neoddělujte odstavce novým řádkem.'
+      use_rich_text_editor_label: 'Použít editor formátovaného textu?'
   lib:
     composer:
       additional_items_tooltip: 'Další ovládací prvky'
       bold_tooltip: 'Tučný text <{modifierKey}-b>'
+      code_block_tooltip: 'Vložit blok kódu'
+      code_tooltip: 'Řádek kódu <{modifierKey}-`>'
+      header_tooltip: 'Změnit na nadpis {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Vložit vodorovnou čáru'
       image_tooltip: 'Přidat obrázek'
+      insert_button: Vložit
       insert_image:
         src_placeholder: Odkaz
+        title_placeholder: Titulek
       insert_link:
+        href_placeholder: 'Adresa URL'
+        remove_button: Smazat
+        text_placeholder: Text
         title_placeholder: 'Titulek (zobrazí se při najetí myší)'
       italic_tooltip: 'Kurzíva <{modifierKey}-i>'
       link_tooltip: 'Přidat odkaz'
       ordered_list_tooltip: 'Číslovaný seznam <shift-{modifierKey}-9>'
+      paragraph_tooltip: 'Změnit na odstavec <shift-{modifierKey}-0>'
+      quote_tooltip: 'Vložit citaci <{modifierKey}-q>'
+      spoiler_block_tooltip: 'Rozbalovací blok se spojlerem'
+      spoiler_inline_tooltip: 'Spojler <{modifierKey}-;>'
+      strike_tooltip: 'Přeškrtnuté <alt-shift-5>'
+      sub_tooltip: 'Dolní index <{modifierKey}-,>'
+      sup_tooltip: 'Horní index <{modifierKey}-.>'
+      text_type_tooltip: 'Vybrat typ textu'
+      toggle_button: 'Přepnout režim formátovaného textu'
+      unordered_list_tooltip: 'Nečíslovaný seznam <shift-{modifierKey}-8>'
