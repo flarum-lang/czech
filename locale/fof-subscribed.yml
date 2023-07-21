@@ -11,6 +11,8 @@ fof-subscribed:
       subscribe_to_post_unapproved: 'Povoleno přijímat oznámení o novém neschváleném příspěvku'
       subscribe_to_user_created: 'Povoleno přijímat oznámení o novém uživateli'
   email:
+    body:
+      newDiscussion: "Ahoj {recipient_display_name},\n\n{actor_display_name} začal novou diskuzi: {discussion_title}\n\nChcete-li si zobrazit tuto novou diskuzi, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n"
     subject:
       newDiscussion: '[Odběr | Nová diskuze] {title}'
       newUser: '[Odběr | Nový uživatel] {username}'
@@ -27,5 +29,6 @@ fof-subscribed:
     settings:
       notify_discussion_created_label: 'Někdo vytvoří diskuzi'
       notify_post_created_label: 'Někdo vytvoří nový příspěvek nebo odpověď'
+      notify_post_flagged_label: 'Někdo vytvoří nové nahlášení příspěvku'
       notify_post_unapproved_label: 'Vytvořený příspěvek vyžaduje schválení'
       notify_user_created_label: 'Když se někdo zaregistruje'
