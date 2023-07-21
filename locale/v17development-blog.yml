@@ -35,12 +35,12 @@ v17development-flarum-blog:
       require_review_label: 'Příspěvky na blogu vyžadují kontrolu'
       require_review_text: 'Při zveřejnění článku, nebude viditelný okamžitě, musí být zkontrolován moderátorem.'
       select_categories_button: 'Vybrat kategorie blogu'
-      selected_category_count: '{count, plural, one {Máte vybranou # kategorii} few {Máte vybrané # kategorie} other {Máte vybrané # kategorií}}'
+      selected_category_count: '{count, plural, one {Máte vybranou # kategorii} few {Máte vybrané # kategorie} other {Máte vybráno # kategorií}}'
       show_tag_hierarchy_label: 'Zobrazit hierarchii štítků'
       show_tag_hierarchy_text: 'Přidá mezery k podřízeným štítkům a vytvoří hierarchii seznamu kategorií.'
   forum:
     article:
-      slug: 'Identifikátor (slug)'
+      slug: 'Slug (část adresy URL)'
       summary: Souhrn
       title: Název
     article_settings:
