@@ -54,6 +54,7 @@ fof-linguist:
       missing: 'Vyhledat chybějící překlady'
       missing-middle-label: 'překlady v'
       negation-options:
+        with: S
         without: Bez
       results: 'Zobrazeno {shown} z {total} odpovídajících překladů'
       search: 'Hledat překladové řetězce…'
