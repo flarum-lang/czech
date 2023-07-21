@@ -20,6 +20,7 @@ CHANGELOG
 * [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online)
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread)
 * [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
