@@ -6,8 +6,13 @@ fof-follow-tags:
   admin:
     settings:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
+      following_page_default_label: 'Výchozí filtrování sledovaných stránek'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
   email:
+    body:
+      newDiscussionInTag: "Ahoj {recipient_display_name},\n\n{actor_display_name} zahájil diskuzi ve štítku, který sledujete: {discussion_title}\n\nPro zobrazení nové diskuze, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussionTag: "Ahoj {recipient_display_name},\n\n{actor_display_name} právě změnil štítek v diskuzi od {author_display_name} na štítek, který sledujete {discussion_title}\n\nPro zobrazení nové diskuze, navštivte následující odkaz:\n{discussion_url}\n"
+      newPostInTag: "Ahoj {recipient_display_name},\n\n{actor_display_name} přidal příspěvek do diskuze ke štítku, který sledujete: {discussion_title}\n\nPro zobrazení nové aktivity, navštivte následující odkaz:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNebudete dostávat žádné další notifikace k této diskuzi, dokud nebudete mít aktuální informace.\n"
     subject:
       newDiscussionInTag: '[Štítek | Nová diskuze] {title}'
       newDiscussionTag: '[Štítek | Změněný štítek] {title}'
@@ -15,14 +20,19 @@ fof-follow-tags:
   forum:
     badge:
       following_tag_tooltip: Sledování
+      lurking_tag_tooltip: Číhající
     index:
       follow_tag_button: Sledovat
       following:
         following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
         following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
       unfollow_tag_button: 'Přestat sledovat'
+    notifications:
+      new_discussion_tag_text: '{username} změnil štítek'
+      new_discussion_text: '{username} začal'
+      new_post_text: '{username} přispěl'
     settings:
-      notify_new_discussion_label: 'Někdo vytvoří diskuzi v štítku, který sleduji'
+      notify_new_discussion_label: 'Někdo vytvoří diskuzi se štítkem, který sleduji'
       notify_new_discussion_tag_label: 'Někdo znovu označí diskuzi štítkem, který sleduji'
       notify_new_post_label: 'Někdo přispěje do štítku, který sleduji'
     sub_controls:
@@ -51,3 +61,4 @@ fof-follow-tags:
     following: Sledování
     hiding: Skrývání
     ignoring: Ignorování
+    lurking: Číhající

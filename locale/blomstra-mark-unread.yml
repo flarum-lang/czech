@@ -6,3 +6,6 @@ blomstra-mark-unread:
   admin:
     permissions:
       mark-unread: 'Označit diskuzi jako nepřečtenou'
+  forum:
+    controls:
+      mark-unread: 'Označit jako nepřečtené'
