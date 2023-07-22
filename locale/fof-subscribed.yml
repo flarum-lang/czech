@@ -21,10 +21,10 @@ fof-subscribed:
       postUnapproved: '[Odběr | Neschválený příspěvek] Uživatel {username} zveřejnil v {title}'
   forum:
     notifications:
-      discussion_created_text: 'Uživatel {username} vytvořil novou diskuzi'
-      post_created_text: 'Uživatel {username} napsal nový příspěvek'
-      post_flagged_text: 'Uživatel {username} nahlásil příspěvek'
-      post_unapproved_text: 'Uživatel {username} vytvořil příspěvek, který vyžaduje schválení'
+      discussion_created_text: '{username} vytvořil novou diskuzi'
+      post_created_text: '{username} napsal nový příspěvek'
+      post_flagged_text: '{username} nahlásil příspěvek'
+      post_unapproved_text: '{username} vytvořil příspěvek, který vyžaduje schválení'
       user_created_text: 'Uživatel {username} se právě zaregistroval'
     settings:
       notify_discussion_created_label: 'Někdo vytvoří diskuzi'

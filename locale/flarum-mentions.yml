@@ -31,8 +31,8 @@ flarum-mentions:
     notifications:
       group_mentioned_text: '{username} zmínil skupinu, jejímž jste členem'
       others_text: '=> core.ref.some_others'
-      post_mentioned_text: 'Uživatel {username} odpověděl na váš příspěvek'
-      user_mentioned_text: 'Uživatel {username} se o vás zmínil'
+      post_mentioned_text: '{username} odpověděl na váš příspěvek'
+      user_mentioned_text: '{username} se o vás zmínil'
     post:
       mentioned_by_more_text: '{count, plural, one {# další odpověď} few {# další odpovědi} other {# dalších odpovědí}}.'
       mentioned_by_self_text: '{users} na toto odpověděli.'
