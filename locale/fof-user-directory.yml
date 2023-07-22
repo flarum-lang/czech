@@ -21,8 +21,8 @@ fof-user-directory:
       nav: 'Adresář uživatelů'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
-        discussion-count: '{count, plural, one {{count} diskuze} other {{count} diskuzí}}'
-        post-count: '{count, plural, one {{count} příspěvek} other {{count} příspěvků}}'
+        discussion-count: '{count, plural, one {{count} diskuze} few {{count} diskuze} other {{count} diskuzí}}'
+        post-count: '{count, plural, one {{count} příspěvek} few {{count} příspěvky} other {{count} příspěvků}}'
     search:
       field:
         placeholder: 'Vyhledat všechny uživatele'
