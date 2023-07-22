@@ -12,7 +12,7 @@ fof-socialprofile:
       allow_external_favicons_label: 'Povolit externí ikony webových stránek (používá rozhraní API favicon aplikace DuckDuckGo)'
   forum:
     edit:
-      add: 'Přidat tlačítka do sociálních médií'
+      add: 'Přidat tlačítka sociálních médií'
       delete: Smazat
       deletetitle: 'Tlačítko smazat'
       edit: 'Upravit tlačítka sociálních médií'
