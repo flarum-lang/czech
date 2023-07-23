@@ -71,6 +71,7 @@ CHANGELOG
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
