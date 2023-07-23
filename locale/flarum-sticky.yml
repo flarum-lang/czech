@@ -8,7 +8,7 @@ flarum-sticky:
       sticky_discussions_label: 'Připnout diskuze'
   forum:
     badge:
-      sticky_tooltip: '=> flarum-sticky.ref.sticky'
+      sticky_tooltip: Připnuto
     discussion_controls:
       sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: Odepnout
