@@ -6,6 +6,7 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Pro sdílení používat kanonické adresy URL'
+      plain-copy: 'Zobrazit prostou kopii adresy URL'
   forum:
     discussion:
       share_button: Sdílet
@@ -17,6 +18,7 @@ fof-share-social:
       facebook: Facebook
       linkedin: LinkedIn
       my_mail: 'My World'
+      native: 'Native Share'
       odnoklassniki: Odnoklassniki
       qq: QQ
       qzone: QZone
