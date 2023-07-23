@@ -38,7 +38,7 @@ michaelbelgium-discussion-views:
     post:
       modal_title_text: 'Uživatelé, kteří si naposledy prohlíželi tuto diskuzi'
       others_link: '=> core.ref.some_others'
-      viewed_by: 'Prohlédl si {users}.'
+      viewed_by: 'Zobrazil si {users}.'
       you: '=> core.ref.you'
     viewlist:
       guest: Host
