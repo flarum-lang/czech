@@ -12,7 +12,7 @@ fof-subscribed:
       subscribe_to_user_created: 'Povoleno přijímat oznámení o novém uživateli'
   email:
     body:
-      newDiscussion: "Ahoj {recipient_display_name},\n\n{actor_display_name} začal novou diskuzi: {discussion_title}\n\nChcete-li si zobrazit tuto novou diskuzi, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussion: "Ahoj {recipient_display_name},\n\n{actor_display_name} začal novou diskuzi: {discussion_title}\n\nPro zobrazení nové diskuze, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n"
     subject:
       newDiscussion: '[Odběr | Nová diskuze] {title}'
       newUser: '[Odběr | Nový uživatel] {username}'
