@@ -27,6 +27,7 @@ fof-upload:
       select: 'Vyberte soubor níže a zkontrolujte hodnoty, které budou použity. Soubor nebude uložen.'
       title: 'Kontrola MIME'
       validation-failed: 'Selhání: {error}'
+      validation-passed: Prošla
     labels:
       aws-s3:
         acl: 'Seznam řízení přístupu (ACL)'
@@ -56,6 +57,7 @@ fof-upload:
         client_id: 'ID klienta Imgur'
         title: 'Nastavení úložiště obrázků Imgur'
         tos: 'Je vaší odpovědností zajistit, aby uživatelé vašeho fóra dodržovali <a>smluvní podmínky</a> společnosti Imgur'
+      inspect-mime: 'Test souboru na typ MIME'
       local:
         cdn_url: 'Adresa URL CDN (předpony souborů)'
         title: 'Nastavení místního úložiště'
