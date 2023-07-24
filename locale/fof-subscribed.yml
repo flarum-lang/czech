@@ -29,8 +29,10 @@ fof-subscribed:
       post_created_text: '{username} napsal nový příspěvek'
       post_flagged_text: '{username} nahlásil příspěvek'
       post_unapproved_text: '{username} vytvořil příspěvek, který vyžaduje schválení'
-      user_created_text: 'Uživatel {username} se právě zaregistroval'
+      user_created_text: '{username} se právě zaregistroval'
     settings:
+      defaults_label: 'Nastavit {setting} na povoleno jako výchozí'
+      forced_label: 'Vynutit povolení "{setting}" pro všechny'
       notify_discussion_created_label: 'Někdo vytvoří diskuzi'
       notify_post_created_label: 'Někdo vytvoří nový příspěvek nebo odpověď'
       notify_post_flagged_label: 'Někdo vytvoří nové nahlášení příspěvku'
