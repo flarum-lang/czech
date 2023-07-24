@@ -9,38 +9,77 @@ fof-upload:
       download_templates: "Šablony pro stažení představují způsob zobrazení nahraných souborů na vašem fóru, např. náhledy, tlačítka. Aktuálně k dispozici:\n"
       mime_types: "Zde nakonfigurujte mapování. Každý regulární výraz typu mime bude zpracován konkrétním adaptérem pro nahrávání a šablonou pro stahování.\n"
     inspect-mime:
+      laravel-validation: 'Validace souborů Laravel'
       mime-fileinfo: 'PHP Fileinfo (záložní)'
       no-file-selected: 'Žádný soubor'
       not-available: 'Žádný výsledek'
     labels:
+      aws-s3:
+        acl: 'Seznam řízení přístupu (ACL)'
+        advanced_title: 'Pokročilá nastavení úložiště S3'
+        key: Klíč
+        title: 'Nastavení úložiště AWS S3'
+      client_extension:
+        title: 'Přípony souborů zadané uživatelem'
+      composer_buttons:
+        options:
+          both: Obojí
+          media-btn: 'Pouze tlačítko Správce médií'
+          upload-btn: 'Pouze tlačítko Nahrát'
+        title: 'Tlačítka skladatele'
       disable-download-logging:
         title: 'Zakázat protokolování stahování'
         toggle: Zakázat
       disable-hotlink-protection:
         title: 'Zakázat ochranu hotlink'
         toggle: Zakázat
+      imgur:
+        client_id: 'ID klienta Imgur'
+        title: 'Nastavení úložiště obrázků Imgur'
+        tos: 'Je vaší odpovědností zajistit, aby uživatelé vašeho fóra dodržovali <a>smluvní podmínky</a> společnosti Imgur'
+      local:
+        title: 'Nastavení místního úložiště'
       preferences:
         max_file_size: 'Maximální velikost souboru (v kilobajtech)'
+        mime_types: 'Konfigurace typu mime, mapování adaptéru pro nahrávání'
         title: 'Obecné předvolby'
       qiniu:
+        bucket: Bucket
+        key: Klíč
+        secret: Tajný
         title: 'Nastavení úložiště Qiniu'
       resize:
         max_width: 'Maximální šířka/výška obrázku'
         title: 'Změna velikosti obrázku'
         toggle: 'Změnit velikost obrázků'
       watermark:
+        file: 'Nahrajte obrázek vodoznaku'
         position: 'Umístění vodoznaku'
         title: 'Obrázky s vodoznakem'
         toggle: 'Obrázky s vodoznakem'
     pane:
       title: Nahrát
     permissions:
+      delete_uploads_of_others_label: 'Smazat nahrané soubory uživatelů'
       download_label: 'Stáhnout soubory'
+      upload_label: 'Nahrát soubory'
+      view_user_uploads_label: 'Zobrazit nahrané soubory uživatelů'
+    templates:
+      file: 'Výchozí šablona pro stažení souboru'
+      image: 'Výchozí šablona pro stažení obrázku'
+      image-preview: 'Šablona kompletního náhledu obrázku'
+      image-preview_description: "Zobrazuje kompletní obrázek in-line. Nemá funkci stahování, neshromažďují se žádné statistiky a ochrana hotlink je ignorována.\n"
+      just-url: 'Jen adresa URL'
+      markdown-image: 'Šablona obrázku Markdown'
+      text-preview_description: "Vloží náhled (prvních 5 řádků) textového souboru s možností rozbalení a zobrazení celého obsahu souboru.\n"
     upload_methods:
+      imgur: Imgur
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
   api:
     upload_errors:
+      could_not_detect_mime: 'Nelze zjistit typ MIME tohoto souboru, zkuste to prosím znovu.'
+      forbidden_type: 'Nahrávání souborů tohoto typu není povoleno.'
       unsupported_type: 'Adaptér pro odesílání nepodporuje zadaný typ MIME: {mime}.'
   forum:
     buttons:
@@ -51,6 +90,7 @@ fof-upload:
       empty: 'Nejsou zde žádné soubory k zobrazení.'
       hide_file:
         btn_a11y_label: 'Skrýt "{fileName}" ze správce médií'
+        loading: 'Skrytí souboru...'
       load_more_files_btn: 'Načíst další soubory'
       loading: 'Načítání souborů...'
       modal_empty_desktop: 'Seznam souborů je prázdný. Klikněte na tlačítko nebo sem přetáhněte soubor, který chcete nahrát.'
@@ -59,6 +99,13 @@ fof-upload:
     media_manager: 'Správce médií'
     states:
       error: Chyba
+      loading: Nahrávání
       unauthorized: 'Nejste oprávněni stahovat soubory'
     text_preview:
+      collapse: 'Sbalit náhled'
       error: "Chyba při náhledu souboru. Možná byl smazán nebo je zadané ID souboru neplatné.\n"
+      expand: 'Rozbalit náhled'
+      no_snippet: '<není k dispozici žádný fragment kódu (snippet) náhledu>'
+      no_snippet_preview: '<náhled se zde zobrazí po zveřejnění>'
+    validation:
+      max_size: 'Nahrávání větší než {max} kb nejsou akceptována.'
