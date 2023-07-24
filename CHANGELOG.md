@@ -54,6 +54,7 @@ CHANGELOG
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer)
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
+* [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail)
 * [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
