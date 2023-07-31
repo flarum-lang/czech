@@ -68,6 +68,7 @@ CHANGELOG
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
