@@ -7,7 +7,7 @@ v17development-flarum-blog:
     blog: Blog
     permissions:
       approve_posts: 'Může schvalovat články blogu'
-      auto_approve_posts: 'Zveřejňovat články bez schválení'
+      auto_approve_posts: 'Zveřejňovat články blogu bez schválení'
       write_articles: 'Psát a upravovat články blogu'
     settings:
       add_hero_label: 'Zobrazit uvítací banner'
