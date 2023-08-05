@@ -62,6 +62,7 @@ CHANGELOG
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
