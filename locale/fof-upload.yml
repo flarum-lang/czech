@@ -111,9 +111,17 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Nelze zapisovat na disk.'
       could_not_detect_mime: 'Nelze zjistit typ MIME tohoto souboru, zkuste to prosím znovu.'
       forbidden_type: 'Nahrávání souborů tohoto typu není povoleno.'
+      max_upload_file_size_form: 'Dosažen limit maximální velikosti souborů z formuláře.'
+      max_upload_file_size_ini: 'Dosažen limit maximální velikosti souboru z php.ini.'
+      no_file_uploaded: 'Nebyl nahrán žádný soubor.'
+      no_files_made_it_to_upload: 'Nahrávejte soubory, které nejsou větší než {max} kb.'
+      no_upload_tmp_folder: 'Žádná složka tmp pro nahrávání souborů.'
+      partial_upload: 'Částečné nahrání.'
       unsupported_type: 'Adaptér pro odesílání nepodporuje zadaný typ MIME: {mime}.'
+      upload_blocked_by_php_extension: 'Rozšíření php zablokovalo nahrávání.'
   forum:
     buttons:
       attach: Připojit
@@ -121,7 +129,7 @@ fof-upload:
       media: Média
       upload: Nahrát
     file_list:
-      confirm_selection_btn: '{fileCount, plural, =0 {Nic nevybráno} one {Vybraný soubor} few {Vybrané soubory} other {Vybraných souborů}}'
+      confirm_selection_btn: '{fileCount, plural, =0 {Nic nevybráno} one {Vybraný soubor} other {Vybrané soubory}}'
       empty: 'Nejsou zde žádné soubory k zobrazení.'
       hide_file:
         btn_a11y_label: 'Skrýt "{fileName}" ze správce médií'

@@ -5,7 +5,15 @@
 fof-drafts:
   admin:
     permissions:
+      schedule: 'Plánovat zveřejnění konceptů'
       start: 'Vytvářet koncepty'
+    settings:
+      enable_scheduled_drafts: 'Povolit naplánování zveřejnění konceptů'
+      schedule_log_output: 'Připojit výstup plánovače do úložiště protokolu událostí'
+      schedule_on_one_server: 'Používat direktivu ''onOneServer()'' pro plánovač úloh (vyžaduje Redis/Memcache)'
+      title: 'FoF Drafts (koncepty)'
+  console:
+    scheduled_drafts_disabled: 'Plánování zveřejnění konceptů není aktuálně v nastavení povoleno.'
   forum:
     composer:
       discard_empty_draft_alert: 'Zahodit prázdný koncept?'
@@ -21,6 +29,7 @@ fof-drafts:
       empty_text: 'Neuložili jste žádné koncepty'
       schedule_button: '=> fof-drafts.ref.schedule_draft'
       scheduled_icon_tooltip: 'Naplánováno na {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [at] LT'
       title: Koncepty
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
@@ -42,3 +51,5 @@ fof-drafts:
         draft_autosave_interval_invalid: 'Interval musí být celé číslo větší než 4.'
         draft_autosave_interval_label: 'Interval automatického ukládání (v sekundách)'
         drafts_heading: Koncepty
+  ref:
+    schedule_draft: 'Naplánovat zveřejnění'
