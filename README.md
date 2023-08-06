@@ -148,6 +148,7 @@ php flarum cache:clear
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/cs/) |
 | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/the-turk-flamoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-flamoji/cs/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/cs/) |
+| [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/cs/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/cs/) |
 | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/cs/) |
 
