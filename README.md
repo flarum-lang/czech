@@ -138,9 +138,13 @@ php flarum cache:clear
 | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/datlechin-signup-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datlechin-signup-button/cs/) |
 | [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/datlechin-silent-edit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datlechin-silent-edit/cs/) |
 | [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/davwheat-custom-sidenav-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links/cs/) |
+| [`justoverclock/discussion-hero-showtags`](https://github.com/justoverclockl/discussion-hero-showtags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/justoverclock-discussion-hero-showtags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-hero-showtags/cs/) |
 | [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/justoverclock-hashtag/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-hashtag/cs/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/cs/) |
+| [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/matteociaroni-public-suspensions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/matteociaroni-public-suspensions/cs/) |
 | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views/cs/) |
+| [`nearata/flarum-ext-copy-code-to-clipboard`](https://github.com/Nearata/flarum-ext-copy-code-to-clipboard) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/nearata-copy-code-to-clipboard/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-copy-code-to-clipboard/cs/) |
+| [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/nearata-signup-confirm-password/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password/cs/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/cs/) |
 | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/the-turk-flamoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-flamoji/cs/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/cs/) |
@@ -156,6 +160,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/cs/) |
 
 <!-- premium-extensions-list-stop -->
 
