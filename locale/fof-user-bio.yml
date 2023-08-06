@@ -5,7 +5,7 @@
 fof-user-bio:
   admin:
     permission:
-      editAny: 'Upravit jakékoliv bio'
+      editAny: 'Upravit jakékoli bio'
       editOwn: 'Upravit vlastní bio'
       view: 'Zobrazit bio'
     setting:
