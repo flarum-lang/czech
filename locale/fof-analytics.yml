@@ -10,6 +10,7 @@ fof-analytics:
       field:
         piwikAliasUrl: 'URL aliasu'
         piwikAuthToken: 'Ověřovací token'
+        piwikHideAliasUrl: 'V sestavě "Outlinks" skrýt kliknutí na známé aliasy URL'
         piwikPrependDomain: 'Přidat doménu do názvu stránky při sledování'
         piwikSiteId: 'ID webu'
         piwikTrackAccounts: 'Sledovat jednotlivé uživatelské účty'
