@@ -15,6 +15,24 @@ fof-byobu:
       view_private_discussions-when-flagged: 'Zobrazit soukromé diskuze ostatních uživatelů, pokud jsou nahlášené'
     settings:
       badge-icon: 'Diskuzní odznak Byobu'
+      delete_on_last_recipient_left: 'Smazat soukromou diskuzi poté, co ji opustil poslední účastník'
+      delete_on_last_recipient_left_help: 'Pokud je tato možnost povolena, budou soukromé diskuze nenávratně smazány, jakmile poslední účastník diskuzi opustí. V opačném případě budou soukromé diskuze skryty (soft deleted).'
+      enable-make-public-option: 'Povolit možnost nastavit soukromou diskuzi jako veřejnou'
+      enable-make-public-option-help: 'Přidává možnost pro osoby s oprávněním odebrat všechny příjemce, přiřadit nový štítek a veřejně zviditelnit diskuzi (podle nastavení viditelnosti zvoleného štítku).'
+      hide_from_all_discussions_page: 'Skrýt soukromé diskuze ze stránky "Všechny diskuze"'
+      hide_from_all_discussions_page_help: 'Soukromé diskuze budou přístupné pouze na stránce "Soukromé diskuze" nebo v profilu uživatele'
+      post-event-icon: 'Ikona události v diskuzích Byobu'
+  email:
+    body:
+      private_discussion_added: "Ahoj {recipient_display_name},\n\n{actor_display_name} vás přidal do existující soukromé diskuze: {discussion_title}.\n\nPro přístup do diskuze klikněte na následující odkaz:\n{discussion_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n"
+      private_discussion_created: "Ahoj {recipient_display_name},\n\n{actor_display_name} s vámi jako příjemcem začal novou soukromou diskuzi: {discussion_title}.\n\nPro přístup do diskuze klikněte na následující odkaz:\n{discussion_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n"
+      private_discussion_replied: "Ahoj {recipient_display_name},\n\n{actor_display_name} odpověděl v soukromé diskuzi, které jste příjemcem: {discussion_title}.\n\nChcete-li zobrazit nový obsah, klikněte na následující odkaz:\n{post_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n"
+      recipient_removed: "Ahoj {recipient_display_name},\n\n{actor_display_name} opustil diskuzi \"{discussion_title}\" a nemá již přístup k jejímu obsahu.\n\nPro přístup do diskuze klikněte na následující odkaz:\n{discussion_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n"
+    subject:
+      private_discussion_added: '[Soukromá diskuze] {display_name} vás přidal do soukromé diskuze'
+      private_discussion_created: '[Soukromá diskuze] {display_name} s vámi začal novou soukromou diskuzi'
+      private_discussion_replied: '[Soukromá diskuze] {display_name} zveřejnil příspěvek v soukromé diskuzi'
+      recipient_removed: '[Soukromá diskuze] {display_name} opustil diskuzi'
   forum:
     badges:
       is_private:
@@ -28,6 +46,7 @@ fof-byobu:
       send_pd: 'Poslat uživateli {username} zprávu'
       submit: OK
     composer_private_discussion:
+      submit_button: 'Zveřejnit soukromou diskuzi'
       title_placeholder: 'Název soukromé diskuze'
     confirm:
       make_public: 'Opravdu chcete odstranit příjemce a zviditelnit tuto diskuzi pro všechny, kteří si mohou zobrazit přiřazený štítek?'
