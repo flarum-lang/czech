@@ -25,6 +25,8 @@ fof-merge-discussions:
     modal:
       load_preview_button: Náhled
       ordering_date_help: 'Příspěvky ve výsledné diskuzi jsou seřazeny podle data vytvoření'
+      ordering_date_label: 'Sloučit příspěvky podle data vytvoření'
+      ordering_heading: 'Pořadí sloučení'
       ordering_suffix_help: 'Příspěvky zařazené do cílové diskuze budou přidány na konec diskuze'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Sloučit diskuze'
