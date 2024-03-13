@@ -97,6 +97,6 @@ CHANGELOG
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
-* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
+* `zerosonesfun-bbcode-button`
 
 
