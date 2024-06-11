@@ -87,7 +87,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`justoverclock/discussion-hero-showtags`](https://github.com/justoverclockl/discussion-hero-showtags)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
-* [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot)
+* [`justoverclock/website-live-screenshot`](https://flarum.org/extension/justoverclock/website-live-screenshot)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
