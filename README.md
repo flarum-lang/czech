@@ -166,7 +166,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
-| [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/cs/) |
+| [`justoverclock/website-live-screenshot`](https://flarum.org/extension/justoverclock/website-live-screenshot) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/cs/) |
 
 <!-- premium-extensions-list-stop -->
 
