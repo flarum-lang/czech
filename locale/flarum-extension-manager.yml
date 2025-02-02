@@ -141,3 +141,7 @@ flarum-extension-manager:
       updater_title: Aktualizace
     why_not_modal:
       title: 'Proč se neaktualizuje'
+  validation:
+    attributes:
+      package: balíček
+      version: verze
