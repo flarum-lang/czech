@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.1.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+All changes: [v1.0.0...v1.1.0](https://github.com/flarum-lang/czech/compare/v1.0.0...v1.1.0).
+
+
 1.0.0 (2024-08-11)
 ------------------
 
