@@ -237,6 +237,8 @@ core:
             title: Skupiny
           join_time:
             title: 'Připojil se'
+          user_actions:
+            title: Akce
           user_id:
             title: ID
           username:
