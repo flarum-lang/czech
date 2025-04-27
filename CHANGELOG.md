@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.1 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [v1.1.0...v1.1.1](https://github.com/flarum-lang/czech/compare/v1.1.0...v1.1.1).
+
+
 1.1.0 (2025-02-02)
 ------------------
 
