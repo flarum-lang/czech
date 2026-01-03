@@ -127,6 +127,7 @@ fof-upload:
       attach: Připojit
       cancel: Zrušit
       media: Média
+      shared_media: 'Sdílená média'
       upload: Nahrát
       user_uploads: 'Nahrané soubory'
     file_list:
@@ -157,3 +158,20 @@ fof-upload:
       no_snippet_preview: '<náhled se zde zobrazí po zveřejnění>'
     validation:
       max_size: 'Nahrávání větší než {max} kb nejsou akceptována.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Nic nevybráno} one {Vybraný soubor} other {Vybrané soubory}}'
+      delete_confirmation: 'Opravdu chcete smazat „{fileName}“?'
+      delete_file_a11y_label: 'Smazat soubor "{fileName}"'
+      empty: 'Nebyly nalezeny žádné soubory.'
+      hide_file:
+        btn_a11y_label_hide: 'Skrýt "{fileName}" ve správci médií'
+        btn_a11y_label_show: 'Zobrazit "{fileName}" ve správci médií'
+        hide_confirmation: 'Opravdu chcete skrýt "{fileName}"? Skrytím ho odeberete ze správce médií a nebude to mít žádný vliv na existující příspěvky.'
+        hide_fail: 'Nelze skrýt soubor "{fileName}"'
+        show_confirmation: 'Opravdu chcete zobrazit "{fileName}"? Zobrazením souboru se tento soubor zobrazí ve správci médií.'
+        show_fail: 'Nelze zobrazit soubor "{fileName}"'
+      load_more_files_btn: 'Načíst další soubory'
+    upload-shared-file-modal:
+      title: 'Nový sdílený soubor'
+      upload: Nahrát
