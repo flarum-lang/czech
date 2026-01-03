@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.2 (2026-01-03)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+All changes: [v1.1.1...v1.1.2](https://github.com/flarum-lang/czech/compare/v1.1.1...v1.1.2).
+
+
 1.1.1 (2025-04-27)
 ------------------
 
