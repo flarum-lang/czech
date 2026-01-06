@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.3 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+All changes: [v1.1.2...v1.1.3](https://github.com/flarum-lang/czech/compare/v1.1.2...v1.1.3).
+
+
 1.1.2 (2026-01-03)
 ------------------
 
