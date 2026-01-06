@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.1.4 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+All changes: [v1.1.3...v1.1.4](https://github.com/flarum-lang/czech/compare/v1.1.3...v1.1.4).
+
+
 1.1.3 (2026-01-06)
 ------------------
 
