@@ -20,6 +20,7 @@ fof-moderator-notes:
       created_text: '{username} vytvořil tuto poznámku {date}'
       delete: Smazat
       dismiss_button: Hotovo
+      filter_by_me: 'Pouze poznámky, které jsem vytvořil'
       input_heading: 'Zadejte poznámku pro uživatele <strong>{username}</strong>, (markdown je podporován)'
       noNotes: 'Zdá se, že zde nejsou žádné poznámky.'
       submit_button: 'Uložit poznámku'

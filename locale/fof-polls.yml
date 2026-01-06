@@ -18,6 +18,10 @@ fof-polls:
       options_color_blend: 'Prolínání barev textu ve volbách hlasování'
       options_color_blend_help: 'Tuto volbu použijte k míchání barev, zlepšíte tím čitelnost možností hlasování. Pokud tato volba způsobuje problémy se vzhledem fóra a snižuje jeho čitelnost, zakažte ji.'
   forum:
+    answers: Odpovědi
+    compose:
+      add_title: 'Přidat anketu'
+      edit_title: 'Upravit anketu'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -30,7 +34,9 @@ fof-polls:
       allow_change_vote_label: 'Umožnit uživatelům změnit svůj hlas'
       allow_multiple_votes_label: 'Umožnit uživatelům hlasovat pro více možností'
       date_placeholder: 'Datum ukončení ankety (volitelné)'
+      delete: '=> core.ref.delete'
       edit_title: 'Upravit anketu'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Skrýt hlasy, dokud anketa neskončí'
       image_option_placeholder: 'Adresa URL obrázku (volitelné)'
       include_question: 'Musíte zadat otázku'
@@ -44,6 +50,9 @@ fof-polls:
       public_poll_label: 'Umožnit uživatelům zobrazit, kdo hlasoval'
       question_placeholder: Otázka
       submit: Odeslat
+      tooltip:
+        options:
+          add-button: 'Přidat odpověď'
     moderation:
       add: 'Přidat anketu'
       delete: 'Smazat anketu'
@@ -53,8 +62,29 @@ fof-polls:
     poll:
       cannot_change_vote: 'Po hlasování nemůžete svůj hlas změnit.'
       submit_button: Hlasovat
+    poll_controls:
+      delete_confirmation: 'Opravdu chcete tuto anketu smazat?'
+      delete_label: '=> core.ref.delete'
+      edit_label: '=> core.ref.edit'
+      view_label: '=> core.ref.view'
     poll_ended: 'Tato anketa byla ukončena.'
+    poll_groups:
+      composer:
+        save_changes: '=> core.ref.save_changes'
+      controls:
+        add_poll_label: 'Přidat anketu'
+        delete_label: '=> core.ref.delete'
+        edit_label: '=> core.ref.edit'
+      list_page:
+        load_more_button: '=> core.ref.load_more'
+    polls_list:
+      load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     public_poll: 'Zobrazit hlasující'
+    showcase:
+      active-polls: 'Aktivní ankety'
     tooltip:
       badge: Anketa
       votes: '{count, plural, one {# hlas} few {# hlasy} other {# hlasů}}'

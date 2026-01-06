@@ -4,12 +4,20 @@
 
 signature:
   admin:
+    permissions:
+      allow_signature: 'Může mít podpis'
+      edit_signature_others: 'Upravit podpisy jiných uživatelů'
     settings:
+      allow_inline_editing:
+        description: 'Inline úprava podpisu.'
+        help: 'Pokud je funkce povolena, mohou uživatelé upravovat svůj podpis při prohlížení příspěvku.'
       maximum_char_limit:
-        description: 'Maximální počet znaků podpisu (počítejte znaky, nepočítejte HTML značky)'
+        description: 'Maximální počet znaků podpisu.'
+        help: 'Pokud uživatel překročí maximální počet znaků v podpisu, nebude moci podpis uložit, dokud počet znaků nebude odpovídat limitu.'
         placeholder: '1000 (výchozí)'
       maximum_image_count:
         description: 'Maximální počet vložených obrázků.'
+        help: 'Pokud uživatel překročí maximální počet obrázků ve svém podpisu, nebude moci podpis uložit, dokud počet obrázků nebude odpovídat limitu.'
         placeholder: '5 (výchozí)'
       maximum_image_height:
         description: 'Maximální výška (nebo součet výšek) vložených obrázků do editoru.'
@@ -20,6 +28,7 @@ signature:
     title: Podpis
   forum:
     buttons:
+      edit: 'Upravit podpis'
       save: 'Uložit podpis'
       signature: Podpis
     errors:
@@ -34,3 +43,5 @@ signature:
       loading:
         content: 'Čekejte prosím...'
         title: Ukládání
+    profile:
+      click: 'Klikněte a napište svůj podpis'
