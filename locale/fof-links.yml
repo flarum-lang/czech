@@ -9,6 +9,7 @@ fof-links:
       delete_link_confirmation: 'Opravdu chcete tento odkaz smazat?'
       everyone-label: Všichni
       guests-label: Hosté
+      icon_additional_text: 'Pokud chcete použít ikonu značky, použijte místo toho předponu <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Jedná se o interní odkaz?'
@@ -18,13 +19,20 @@ fof-links:
       title: '=> fof-links.ref.create_link'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
-      url_description: 'Pro zobrazení jako popisek ponechte prázdné.'
+      url_description: 'Ponechte prázdné pro zobrazení jako štítek.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      use_rel_me: 'Přidat atribut <code>rel="me"</code> pro ověření identity na jiných webech'
       visibility: 'Viditelnost odkazů'
+      visibility.guest-only.help: 'Tento odkaz můžou vidět pouze {guest}. Výše uvedené oprávnění by mělo být nastaveno na ''{everyone}''.'
+      visibility.guest-only.label: 'Pouze {guest}?'
+      visibility.help: 'Odkazy jsou ve výchozím nastavení viditelné pouze pro uživatele <code>{admin}</code>. Upravte oprávnění a určete, kdo může tento odkaz vidět.'
+      visibility.help-disabled: 'Uložte odkaz před změnou nastavení viditelnosti.'
+      visibility.label: 'Viditelnost odkazu'
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+      preconfigured: 'Odkazy na tomto fóru jsou předem nakonfigurované a nelze je zde upravovat.'
     settings:
       show_icons_only_on_tablet: 'Zobrazit ikony pouze na obrazovkách tabletů'
   ref:

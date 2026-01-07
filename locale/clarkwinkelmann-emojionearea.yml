@@ -5,12 +5,24 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Zavřít panel po výběru emotikony'
       enableRecent: 'Povolit nedávné'
       enableSearch: 'Povolit vyhledávání'
-      enableTones: 'Povolit tóny'
-      filtersPosition: 'Přesunout kategorie na konec'
-      hideFlarumButton: 'Skrytí tlačítka pro výběr emoji na fóru Flarum'
-      searchPosition: 'Přesunutí vyhledávání a tónů na konec'
+      enableTones: 'Povolit odstíny pleti'
+      filtersPosition: 'Přesunout kategorie dolů'
+      hideFlarumButton: 'Skrýt tlačítko pro výběr emotikony na fóru Flarum'
+      searchPosition: 'Přesunout vyhledávání a odstíny dolů'
   forum:
-    picker_button: 'Vybrat Emoji'
-    search_placeholder: Vyhledávání...
+    filters:
+      activity: Aktivity
+      animals_nature: 'Zvířata a příroda'
+      flags: Vlajky
+      food_drink: 'Jídlo a pití'
+      objects: Předměty
+      recent: Nedávné
+      smileys_people: 'Smajlíci a lidé'
+      symbols: Symboly
+      tones: Různorodost
+      travel_places: 'Cestování a místa'
+    picker_button: Emotikony
+    search_placeholder: Hledat…
