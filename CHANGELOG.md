@@ -7,6 +7,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
