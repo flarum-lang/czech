@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
