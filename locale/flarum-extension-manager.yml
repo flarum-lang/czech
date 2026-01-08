@@ -66,7 +66,7 @@ flarum-extension-manager:
     extensions:
       check_why_it_failed_updating: 'Ukažte, proč se neaktualizoval na nejnovější verzi.'
       install: 'Instalace nového rozšíření'
-      install_help: "Vyplňte název rozšiřujícího balíčku a pokračujte.  Můžete zadat  <semantic_link>semantic version</semantic_link> pomocí formátu <code>vendor/package-name:version</code>. Navštivte {extiverse} a prohlédněte si rozšíření.\n"
+      install_help: "Zadejte název balíčku rozšíření a pokračujte. Můžete zadat <semantic_link>sémantickou verzi</semantic_link> ve formátu <code>vendor/package-name:version</code>. Navštivte {extiverse} a prohlédněte si dostupná rozšíření.\n"
       proceed: Pokračovat
       remove: Odinstalovat
       successful_install: '{extension} bylo úspěšně nainstalováno, přesměrování..'
@@ -143,5 +143,13 @@ flarum-extension-manager:
       title: 'Proč se neaktualizuje'
   validation:
     attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitHub OAuth'
+      'gitlab_oauth.*': 'GitHub OAuth'
+      gitlab_token: 'GitLab Token'
+      'gitlab_token.*': 'GitLab Token'
       package: balíček
       version: verze
