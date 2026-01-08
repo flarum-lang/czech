@@ -5,6 +5,11 @@ CHANGELOG
 1.1.4 (XXXX-XX-XX)
 ------------------
 
+**Added support for new extensions**:
+
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+
+
 **Updated translations for extensions**:
 
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
