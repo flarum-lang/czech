@@ -5,6 +5,11 @@ CHANGELOG
 1.1.4 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated validation translations.
+
+
 **Added support for new extensions**:
 
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
