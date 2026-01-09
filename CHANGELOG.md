@@ -12,6 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 
 
