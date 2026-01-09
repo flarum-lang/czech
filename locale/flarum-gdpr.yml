@@ -49,7 +49,63 @@ flarum-gdpr:
           export: 'Exportovat data uživatele {username}'
   email:
     confirm_erasure:
+      body: "Ahoj {display_name}!\n\nNěkdo (doufejme že vy) právě požádal o výmaz účtu `{display_name}`.\n\nPro potvrzení této akce prosím otevřete následující odkaz. Poté bude vaše žádost zpracována naším týmem.\n\n{erasure_confirm_url}\n"
       subject: 'Potvrďte žádost o výmaz účtu'
+    erasure_cancelled:
+      body: "Ahoj {display_name}!\n\nToto je automatické oznámení, že vaše žádost o zrušení výmazu účtu byla zpracována.\n\nVáš účet již nebude smazán.\n"
+      subject: 'Žádost o výmaz účtu zrušena'
+    erasure_completed:
+      anonymization:
+        body: "Ahoj {display_name}!\n\nToto je automatické závěrečné oznámení, že váš účet byl anonymizován.\n"
+        subject: 'Anonymizace účtu dokončena'
+      deletion:
+        body: "Ahoj {display_name}!\n\nToto je automatické závěrečné oznámení, že váš účet byl smazán.\n"
+        subject: 'Mazání účtu dokončeno'
+    export_available:
+      body: "Ahoj {display_name}!\n\nPožádali jste o export dat účtu uživatele {username}. Tento export byl úspěšně vytvořen a je nyní k dispozici:\n\n{url}\n\nExport zůstane dostupný do {destroys_at}.\n"
+      subject: 'Export dat je k dispozici'
+  forum:
+    badges:
+      anonymized_user: 'Anonymizovaný uživatel'
+    delete_user:
+      delete_button: Vymazat
+      modal_delete_button: 'Vymazat pomocí výchozí akce'
+      text: "Opravdu chcete vymazat účet uživatele {username}?\n\nTato akce je nevratná.\n"
+      title: 'Vymazat účet uživatele {username}'
+    erasure_request_confirmed: 'Potvrdili jste svou žádost o výmaz účtu. Akce bude provedena do 30 dnů, jak vyžaduje GDPR.'
+    erasure_requests:
+      empty_text: 'Žádné čekající žádosti o výmaz účtu'
+      item_text: '{name} požádal o výmaz účtu'
+      title: 'Žádosti o výmaz účtu'
+      tooltip: 'Žádosti o výmaz účtu'
+    export_file: 'Export uživatelských dat pro {username} ({email}) připraven {date} z {forumTitle} ({url})'
+    notification:
+      export-ready: 'Export dat uživatele {username} je připraven ke stažení.'
+    process_erasure:
+      anonymization_button: 'Anonymizovat uživatele'
+      comments_label: 'Komentáře (volitelné)'
+      confirm: 'Opravdu chcete vymazat účet uživatele {name} v režimu {mode}?'
+      deletion_button: 'Smazat uživatele'
+      text: '{name} požádal o výmaz účtu.'
+      title: 'Zpracovat žádost o výmaz'
+    request_erasure:
+      cancel_button: 'Zrušit žádost'
+      password_label: 'Potvrďte heslo'
+      reason: 'Uvedli jste následující důvod: {reason}'
+      reason_label: 'Důvod (volitelné)'
+      request_button: 'Požádat o výmaz'
+      status:
+        awaiting_user_confirmation: "Měli byste obdržet e‑mail pro potvrzení žádosti o výmaz účtu.\n"
+        user_confirmed: "Potvrdili jste svou žádost o výmaz účtu. Akce bude provedena do 30 dnů, jak vyžaduje GDPR.\n"
+      text: 'Po obdržení a potvrzení bude vaše žádost do 30 dnů posouzena administrátorem, jak vyžaduje GDPR.'
+      title: 'Požádat o výmaz účtu'
+    settings:
+      data:
+        heading: 'Osobní údaje'
+      export_data_button: 'Exportovat data'
+      export_data_help: 'Požádáním o export dat získáte ke stažení kopii všech informací spojených s vaším účtem. Zahrnuje to příspěvky, komentáře i údaje profilu.'
+      request_erasure_button: 'Vymazat účet'
+      request_erasure_help: 'Požádáním o výmaz bude váš účet a všechna související data trvale odstraněna. Tato akce je nevratná. Před pokračováním se ujistěte, že máte uložený veškerý obsah, který si chcete ponechat.'
   lib:
     data:
       avatar:
