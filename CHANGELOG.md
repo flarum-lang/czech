@@ -18,8 +18,10 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
