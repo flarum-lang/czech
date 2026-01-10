@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Pokud je tato možnost povolena, budou soukromé diskuze nenávratně smazány, jakmile poslední účastník diskuzi opustí. V opačném případě budou soukromé diskuze skryty (soft deleted).'
       enable-make-public-option: 'Povolit možnost nastavit soukromou diskuzi jako veřejnou'
       enable-make-public-option-help: 'Přidává možnost pro osoby s oprávněním odebrat všechny příjemce, přiřadit nový štítek a veřejně zviditelnit diskuzi (podle nastavení viditelnosti zvoleného štítku).'
+      general:
+        heading: 'Obecná nastavení'
+        help: 'Tato nastavení ovlivňují základní funkce rozšíření Byobu.'
       hide_from_all_discussions_page: 'Skrýt soukromé diskuze ze stránky "Všechny diskuze"'
       hide_from_all_discussions_page_help: 'Soukromé diskuze budou přístupné pouze na stránce "Soukromé diskuze" nebo v profilu uživatele'
+      icon:
+        heading: 'Nastavení ikon'
+        help: 'Tato nastavení určují ikony, které Byobu na fóru používá.'
       post-event-icon: 'Ikona události v diskuzích Byobu'
   email:
     body:
@@ -50,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Název soukromé diskuze'
     confirm:
       make_public: 'Opravdu chcete odebrat příjemce a zviditelnit tuto diskuzi pro všechny, kteří si mohou zobrazit přiřazený štítek?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Vyhledejte příjemce zadáním prvních tří znaků...'
     labels:
