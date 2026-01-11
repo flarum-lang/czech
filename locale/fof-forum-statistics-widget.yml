@@ -10,6 +10,10 @@ fof-forum-statistics-widget:
       view_posts_count_label: 'Zobrazit widget statistiky fóra s počtem příspěvků'
       view_users_count_label: 'Zobrazit widget statistiky fóra s počtem uživatelů'
     settings:
+      cache_duration_help: "Zadejte, jak dlouho mají být statistiky widgetu v\_mezipaměti uchovány (v\_sekundách). Hodnota <code>0</code> vypne ukládání do mezipaměti (nedoporučuje se)."
+      cache_duration_label: 'Doba uložení do mezipaměti'
+      flush_cache_on_new_registration_help: 'Pokud je tato volba zapnutá, mezipaměť statistik se při registraci nového uživatele vymaže.'
+      flush_cache_on_new_registration_label: 'Vymazat mezipaměť statistik při nové registraci'
       widget_helper_text: 'Úpravou tohoto nastavení určíte pozici tohoto widgetu v postranní liště fóra Flarum. Čím vyšší číslo, tím výše bude tento widget v seznamu položek postranní lišty (tato hodnota může být kladná nebo záporná).'
       widget_ignore_private_discussions_label: 'Ignorovat soukromé diskuze'
       widget_order_label: 'Řazení widgetů'
