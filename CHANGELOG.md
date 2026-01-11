@@ -12,6 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 
