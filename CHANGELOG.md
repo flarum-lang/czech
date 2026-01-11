@@ -24,6 +24,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
