@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+1.1.4 (2026-01-12)
+------------------
+
+**General changes**:
+
+* Updated validation translations.
+
+
+**Added support for new extensions**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+
+
+**Updated translations for extensions**:
+
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+All changes: [v1.1.3...v1.1.4](https://github.com/flarum-lang/czech/compare/v1.1.3...v1.1.4).
+
+
 1.1.3 (2026-01-06)
 ------------------
 
