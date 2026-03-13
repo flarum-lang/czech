@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.6 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
+All changes: [v1.1.5...v1.1.6](https://github.com/flarum-lang/czech/compare/v1.1.5...v1.1.6).
+
+
 1.1.5 (2026-03-13)
 ------------------
 
