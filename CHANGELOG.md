@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.7 (2026-04-15)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+
+
+All changes: [v1.1.6...v1.1.7](https://github.com/flarum-lang/czech/compare/v1.1.6...v1.1.7).
+
+
 1.1.6 (2026-03-13)
 ------------------
 
