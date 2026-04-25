@@ -123,8 +123,6 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/cs/) |
-| [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/askvortsov-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-categories/cs/) |
-| [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/askvortsov-checklist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-checklist/cs/) |
 | [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/askvortsov-markdown-tables/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-markdown-tables/cs/) |
 | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/askvortsov-rich-text/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text/cs/) |
 | [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/blomstra-fontawesome/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-fontawesome/cs/) |
