@@ -121,6 +121,7 @@ php flarum cache:clear
 | --- | --- |
 | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/cs/datlechin-signup-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-signup-button/cs/) |
 | [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/cs/datlechin-silent-edit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-silent-edit/cs/) |
+| [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/cs/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-discussion-views/cs/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/cs/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/cs/) |
 
 <!-- various-extensions-list-stop -->
