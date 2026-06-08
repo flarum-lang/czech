@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.8 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+
+
+All changes: [v1.1.7...v1.1.8](https://github.com/flarum-lang/czech/compare/v1.1.7...v1.1.8).
+
+
 1.1.7 (2026-04-15)
 ------------------
 
