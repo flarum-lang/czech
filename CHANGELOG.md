@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.4 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+
+
+All changes: [v2.0.3...v2.0.4](https://github.com/flarum-lang/czech/compare/v2.0.3...v2.0.4).
+
+
 2.0.3 (2026-06-08)
 ------------------
 
