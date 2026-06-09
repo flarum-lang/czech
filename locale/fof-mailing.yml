@@ -7,10 +7,25 @@ fof-mailing:
     permissions:
       mail_all: 'Odeslat e-mail skupinám uživatelů nebo všem uživatelům'
       mail_individual: 'Odeslat e-mail jednotlivým uživatelům'
+  api:
+    no_recipients: 'Nebyli nalezeni žádní příjemci'
   forum:
     links:
       mail_all: 'Odeslat e-mail'
       mail_individual: 'Poslat e-mail'
     modal_mail:
+      message_label: Zpráva
       recipients_label: Adresáti
+      recipients_placeholder: 'Přidat více příjemců...'
+      subject_label: Předmět
+      submit_button: Odeslat
       title_text: 'Vytvořit e-mail'
+    modal_sent:
+      on_its_way: 'Skvělé! Váš e-mail je právě na cestě k {recipientsCount} příjemcům!'
+      title_text: 'E-mail byl odeslán!'
+    recipient_kinds:
+      email: E-mail
+      group: Skupina
+      user: Uživatel
+  ref:
+    default_subject: 'Zpráva od správců fóra'
