@@ -147,7 +147,7 @@ php flarum cache:clear
 | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views/cs/) |
 | [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/nearata-signup-confirm-password/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password/cs/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/cs/) |
-| [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/cs/) |
+| [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/cs/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/cs/) |
 
 <!-- various-extensions-list-stop -->
