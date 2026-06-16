@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.10 (2026-06-16)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+All changes: [v1.1.9...v1.1.10](https://github.com/flarum-lang/czech/compare/v1.1.9...v1.1.10).
+
+
 1.1.9 (2026-06-09)
 ------------------
 
