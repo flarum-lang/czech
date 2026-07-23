@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.5 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+All changes: [v2.0.4...v2.0.5](https://github.com/flarum-lang/czech/compare/v2.0.4...v2.0.5).
+
+
 2.0.4 (2026-06-09)
 ------------------
 
