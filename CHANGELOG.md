@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 
 
 All changes: [v2.0.4...v2.0.5](https://github.com/flarum-lang/czech/compare/v2.0.4...v2.0.5).
