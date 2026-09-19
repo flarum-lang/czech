@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.1.11 (2026-09-19)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+All changes: [v1.1.10...v1.1.11](https://github.com/flarum-lang/czech/compare/v1.1.10...v1.1.11).
+
+
 1.1.10 (2026-06-16)
 -------------------
 
