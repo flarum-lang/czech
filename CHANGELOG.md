@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.6 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [v2.0.5...v2.0.6](https://github.com/flarum-lang/czech/compare/v2.0.5...v2.0.6).
+
+
 2.0.5 (2026-08-30)
 ------------------
 
