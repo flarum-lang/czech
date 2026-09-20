@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.7 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+
+
+All changes: [v2.0.6...2.0.7](https://github.com/flarum-lang/czech/compare/v2.0.6...2.0.7).
+
+
 2.0.6 (2026-09-19)
 ------------------
 
