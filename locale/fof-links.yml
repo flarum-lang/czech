@@ -22,7 +22,6 @@ fof-links:
       use_rel_me: 'Přidat atribut <code>rel="me"</code> pro ověření identity na jiných webech'
       visibility:
         guest-only:
-          help: 'Tento odkaz můžou vidět pouze {guest}. Výše uvedené oprávnění by mělo být nastaveno na ''{everyone}''.'
           label: 'Pouze {guest}?'
         help: 'Odkazy jsou ve výchozím nastavení viditelné pouze pro uživatele <code>{admin}</code>. Upravte oprávnění a určete, kdo může tento odkaz vidět.'
         help-disabled: 'Uložte odkaz před změnou nastavení viditelnosti.'
