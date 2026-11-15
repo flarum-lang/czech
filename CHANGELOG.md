@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.8 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [2.0.7...2.0.8](https://github.com/flarum-lang/czech/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-09-20)
 ------------------
 
