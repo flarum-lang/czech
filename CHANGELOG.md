@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.12 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [v1.1.11...1.1.12](https://github.com/flarum-lang/czech/compare/v1.1.11...1.1.12).
+
+
 1.1.11 (2026-09-19)
 -------------------
 
