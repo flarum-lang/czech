@@ -20,7 +20,21 @@ fof-polls:
     answers: Odpovědi
     compose:
       add_title: 'Přidat anketu'
+      continue_editing: 'Pokračovat v úpravách'
+      draft_saved: 'Koncept uložen'
       edit_title: 'Upravit anketu'
+      polls_manager: 'Správa anket'
+      polls_preview: 'Zobrazit anketu'
+      publish: Zveřejnit
+      save_as_draft: 'Uložit jako koncept'
+      schedule: Naplánovat
+      schedule_datetime_label: 'Čas zveřejnění'
+      schedule_publication: 'Naplánovat zveřejnění'
+      schedule_publication_edit: 'Upravit naplánované zveřejnění'
+      schedule_submit: Naplánovat
+      submit: Odeslat
+      success: 'Anketa byla uložena.'
+      update_draft: 'Aktualizovat koncept'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -32,11 +46,14 @@ fof-polls:
       add_title: 'Přidat anketu'
       allow_change_vote_label: 'Umožnit uživatelům změnit svůj hlas'
       allow_multiple_votes_label: 'Umožnit uživatelům hlasovat pro více možností'
+      date_clear: 'Vymazat datum ukončení'
       date_placeholder: 'Datum ukončení ankety (volitelné)'
       delete: '=> core.ref.delete'
       edit_title: 'Upravit anketu'
+      empty_answers: '{count, plural, one {# odpověď je prázdná – vyplňte ji, nebo ji odstraňte.} few {# odpovědi jsou prázdné – vyplňte je, nebo je odstraňte.} other {# odpovědí je prázdných – vyplňte je, nebo je odstraňte.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Skrýt hlasy, dokud anketa neskončí'
+      hide_votes_label_help: 'Autor ankety uvidí hlasy vždy.'
       image_option_placeholder: 'Adresa URL obrázku (volitelné)'
       include_question: 'Musíte zadat otázku'
       max: 'Můžete zadat maximální počet odpovědí: {max}'
@@ -46,46 +63,122 @@ fof-polls:
       no_voters: 'Bez hlasů'
       option_placeholder: Odpověď
       options_label: Odpovědi
+      poll_image:
+        alt_help_text: 'Pokud je nastaven obrázek, je tento text povinný. Zobrazí se, když se obrázek nepodaří načíst.'
+        alt_label: 'Alternativní text obrázku'
+        help: 'Nahrajte obrázek, který se zobrazí u ankety (volitelné).'
+        label: 'Obrázek ankety'
+        url_deprecated: 'Tato anketa používá obrázek z externí URL. Externí URL jsou zastaralé a v budoucí verzi budou odstraněny. Nahrajte prosím obrázek znovu tlačítkem pro nahrání.'
+      poll_option_image:
+        help: 'Nahrajte obrázek, který se zobrazí u odpovědi (volitelné).'
+        label: 'Obrázek odpovědi'
       public_poll_label: 'Umožnit uživatelům zobrazit, kdo hlasoval'
       question_placeholder: Otázka
+      settings_label: Hlasování
       submit: Odeslat
+      subtitle_placeholder: 'Podnadpis/popis (volitelné)'
       tooltip:
         options:
           add-button: 'Přidat odpověď'
+          remove-button: 'Odebrat odpověď'
     moderation:
       add: 'Přidat anketu'
-      delete: 'Smazat anketu'
-      delete_confirm: 'Opravdu chcete tuto anketu smazat?'
+      delete: 'Odstranit anketu'
+      delete_confirm: 'Opravdu chcete tuto anketu odstranit?'
       edit: 'Upravit anketu'
     no_permission: 'Nemáte oprávnění hlasovat'
+    page:
+      nav: Ankety
+      nav-all: 'Všechny globální ankety'
+      nav-groups: 'Skupiny anket'
     poll:
       cannot_change_vote: 'Po hlasování nemůžete svůj hlas změnit.'
+      cannot_start_poll_button: 'Nelze zahájit anketu'
+      draft_label: Koncept
+      scheduled_error_tooltip: 'Naplánované zveřejnění se nezdařilo. Důvod zjistíte po otevření ankety.'
+      scheduled_label: 'Naplánováno na {date}'
+      start_poll_button: 'Zahájit globální anketu'
       submit_button: Hlasovat
+      total_votes: '{count, plural, one {Byl odevzdán # hlas} few {Byly odevzdány # hlasy} other {Bylo odevzdáno # hlasů}}'
     poll_controls:
-      delete_confirmation: 'Opravdu chcete tuto anketu smazat?'
+      cancel_schedule_label: 'Zrušit naplánované zveřejnění'
+      cancel_schedule_success: 'Naplánované zveřejnění bylo zrušeno.'
+      delete_confirmation: 'Opravdu chcete tuto anketu odstranit?'
+      delete_error_message: 'Při odstraňování ankety se něco pokazilo.'
       delete_label: '=> core.ref.delete'
+      delete_success_message: 'Anketa byla odstraněna.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Upravit naplánované zveřejnění'
+      publish_label: 'Zveřejnit hned'
+      publish_success: 'Anketa byla zveřejněna.'
+      schedule_publish_label: 'Naplánovat zveřejnění'
+      toggle_dropdown_accessible_label: 'Přepnout nabídku ovládání ankety'
+      unpublish_confirmation: 'Vrátit tuto anketu mezi koncepty? Zmizí z přehledu anket.'
+      unpublish_error_has_votes: 'Anketu nelze vrátit mezi koncepty – už v ní někdo hlasoval. Místo toho ji odstraňte.'
+      unpublish_label: 'Vrátit mezi koncepty'
+      unpublish_success: 'Anketa byla vrácena mezi koncepty.'
       view_label: '=> core.ref.view'
     poll_ended: 'Tato anketa byla ukončena.'
+    poll_form:
+      delete: 'Odstranit anketu'
+      error: 'Při ukládání ankety došlo k chybě, kontaktujte prosím administrátora.'
     poll_groups:
       composer:
+        add_title: 'Přidat skupinu anket'
+        delete: 'Odstranit skupinu anket'
+        edit_title: 'Upravit skupinu anket'
+        error: 'Při ukládání skupiny anket došlo k chybě, kontaktujte prosím administrátora.'
+        groups_manager: 'Správa skupin anket'
+        name_label: Název
+        name_required: 'Skupina anket musí mít název.'
         save_changes: '=> core.ref.save_changes'
+        success: 'Skupina anket byla uložena.'
+        view_group: 'Zobrazit skupinu anket'
       controls:
         add_poll_label: 'Přidat anketu'
+        delete_confirmation: 'Opravdu chcete tuto skupinu anket odstranit?'
+        delete_error_message: 'Při odstraňování skupiny anket se něco pokazilo.'
         delete_label: '=> core.ref.delete'
+        delete_success_message: 'Skupina anket byla odstraněna.'
         edit_label: '=> core.ref.edit'
+        view_label: 'Zobrazit skupinu anket'
       list_page:
+        add_poll_button: 'Přidat anketu do skupiny'
+        cannot_start_poll_group_button: 'Nelze vytvořit skupinu anket'
+        empty_text: 'Vypadá to, že tu nejsou žádné skupiny anket.'
         load_more_button: '=> core.ref.load_more'
+        no_polls: 'V této skupině nejsou žádné ankety.'
+        start_poll_group_button: 'Vytvořit skupinu anket'
+        title: 'Skupiny anket'
+    poll_never_ends: 'Anketa nikdy nekončí'
+    polls_count: '{count, plural, one {# hlas} few {# hlasy} other {# hlasů}}'
     polls_list:
+      empty_text: 'Vypadá to, že tu nejsou žádné globální ankety.'
       load_more_button: '=> core.ref.load_more'
       sort_dropdown:
+        least_voted: 'Nejméně hlasů'
+        most_voted: 'Nejvíce hlasů'
+        newest: Nejnovější
+        oldest: Nejstarší
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Vše
+        draft: Koncepty
+        published: Zveřejněné
+    polls_page:
+      title: Ankety
     public_poll: 'Zobrazit hlasující'
     showcase:
       active-polls: 'Aktivní ankety'
+      ended-polls: 'Ukončené ankety'
+      no-active-polls: 'Momentálně nejsou žádné aktivní ankety.'
+      no-recent-polls: 'Momentálně nejsou žádné nedávno ukončené ankety.'
     tooltip:
       badge: Anketa
       votes: '{count, plural, one {# hlas} few {# hlasy} other {# hlasů}}'
+    upload_image:
+      remove_button: 'Odstranit obrázek'
+      upload_button: 'Nahrát obrázek'
     votes_modal:
       title: Hlasující

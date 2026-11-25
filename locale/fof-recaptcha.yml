@@ -14,5 +14,13 @@ fof-recaptcha:
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Klíč stránky (Site Key)'
       type_label: 'Typ reCAPTCHA'
+  lib:
+    error: 'Při odesílání reCAPTCHA došlo k chybě. Zkuste to znovu.'
+    not_completed: 'Před pokračováním prosím dokončete ověření reCAPTCHA.'
+    rejected: 'Ověření reCAPTCHA se nezdařilo. Zkuste to prosím znovu.'
+    unknown_error: 'Došlo k neznámé chybě. Zkuste to prosím znovu.'
 validation:
+  attributes:
+    g-recaptcha-response: reCAPTCHA
   recaptcha: 'Ověření reCAPTCHA selhalo.'
+  recaptcha-unknown: 'Při ověřování reCAPTCHA došlo k neznámé chybě ({errors}).'

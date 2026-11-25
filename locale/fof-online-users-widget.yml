@@ -13,4 +13,5 @@ fof-online-users-widget:
   forum:
     widget:
       empty: 'Aktuálně není nikdo online.'
+      more: '{count, plural, one {Další # uživatel online} few {Další # uživatelé online} other {Dalších # uživatelů online}}'
       title: 'Online uživatelé'

@@ -5,6 +5,10 @@
 flarum-subscriptions:
   email:
     new_post:
+      html:
+        body: "{poster_display_name} právě přispěl do diskuze, kterou sledujete: [{title}]({url}).\n\nDalší oznámení o této diskuzi nedostanete, dokud si ji nepřečtete.\n"
+      plain:
+        body: "{poster_display_name} právě přispěl do diskuze, kterou sledujete: {title}.\n\nNovou aktivitu si můžete prohlédnout na tomto odkazu:\n{url}\n\n---\n\n{content}\n\n---\n\nDalší oznámení o této diskuzi nedostanete, dokud si ji nepřečtete.\n"
       subject: '[Nový příspěvek] {title}'
   forum:
     badge:
@@ -21,6 +25,7 @@ flarum-subscriptions:
     notifications:
       new_post_text: 'Uživatel {username} přispěl'
     settings:
+      follow_after_create_label: 'Automaticky sledovat diskuze, které založím'
       follow_after_reply_label: 'Automaticky sledovat diskuze, na které odpovím'
       notify_for_all_posts_label: 'Upozornit na každý nový příspěvek místo posledního v diskuzi'
       notify_new_post_label: 'Někdo přispěje do diskuze, kterou sleduji'
@@ -34,6 +39,12 @@ flarum-subscriptions:
       not_following_text: 'Být upozorněn jen když jsem @zmíněn.'
       notify_alert_tooltip: 'Obdržet oznámení na fóru, když se objeví nový příspěvek'
       notify_email_tooltip: 'Obdržet e-mail, když se objeví nový příspěvek'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: sledovaná
+          ignoring_key: ignorovaná
   ref:
     follow: Sledovat
     following: Sledované

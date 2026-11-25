@@ -6,7 +6,7 @@ fof-terms:
   admin:
     buttons:
       add-policy: 'Přidat zásady'
-      delete-policy: 'Smazat zásady'
+      delete-policy: 'Odstranit zásady'
       edit-policy: 'Upravit zásady'
       new-policy: 'Nové zásady'
       save-policy: 'Uložit zásady'
@@ -19,7 +19,7 @@ fof-terms:
       see-user-policies-state: 'Zobrazit stav zásad uživatele'
     policies:
       export-url: 'Exportovat URL'
-      export-url-help: "Každý uživatel s oprávněním \"Exportovat všechna data zásad\" může přistupovat k těmto adresám URL a stáhnout si seznam uživatelů, kteří tuto zásadu přijali. Další podrobnosti o dostupných možnostech najdete na <a>extension wiki</a>.\n"
+      export-url-help: "Každý uživatel s oprávněním „Exportovat všechna data zásad“ může přistupovat k těmto adresám URL a stáhnout si seznam uživatelů, kteří tuto zásadu přijali. Další podrobnosti o dostupných možnostech najdete na <a>wiki rozšíření</a>.\n"
       name: Název
       name-help: 'Tento název se zobrazí vedle zaškrtávacího políčka a jako název modálního okna aktualizace.'
       terms-updated-at: 'Aktualizováno na'
@@ -55,7 +55,11 @@ fof-terms:
       title: 'Podmínky přijetí stavu pro uživatele {username}'
     update-alert:
       can-accept-message: 'Nedávno jsme aktualizovali podmínky. Chcete-li nadále používat tyto webové stránky, musíte je přijmout.'
+      can-accept-optional-message: 'Nedávno jsme aktualizovali podmínky. Můžete si je prohlédnout, až budete mít čas.'
+      close: Zavřít
       must-accept-message: 'Dočasně jsme omezili přístup k vašemu účtu, než se seznámíte s novými podmínkami.'
       review: 'Kliknutím zde si můžete prohlédnout a přijmout nové podmínky'
     user_controls:
       state_button: 'Stav akceptace podmínek'
+    user_settings:
+      optional_policies_label: Zásady

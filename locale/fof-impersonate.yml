@@ -10,3 +10,17 @@ fof-impersonate:
       no_settings_available: 'V tuto chvíli nejsou k dispozici žádná nastavení. Zkuste nainstalovat fof/moderator-notes'
       require_reason: 'Vyžadovat uvedení důvodu před vydáváním se za jiného uživatele.'
       title: 'FoF Impersonate'
+  forum:
+    notice:
+      message: 'Momentálně jste přihlášeni jako {username}.'
+    return:
+      button: 'Vrátit se k účtu {username}'
+  lib:
+    modal:
+      impersonate_username: 'Přihlásit se jako {username}'
+      label: 'S velkou mocí přichází velká zodpovědnost. Pokračováním se stanete uživatelem {username}, dokud se nepřepnete zpět.'
+      placeholder_optional: '(Volitelné) Uveďte důvod přepnutí na tohoto uživatele'
+      placeholder_required: 'Než budete pokračovat, musíte uvést důvod přepnutí na tohoto uživatele'
+      title: 'Přihlásit se jako jiný uživatel'
+    user_controls:
+      impersonate_button: 'Přihlásit se jako uživatel'

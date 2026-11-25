@@ -15,5 +15,10 @@ flarum-sticky:
     post_stream:
       discussion_stickied_text: '{username} připnul diskuzi {time}.'
       discussion_unstickied_text: '{username} odepnul diskuzi {time}.'
+  lib:
+    gambits:
+      discussions:
+        sticky:
+          key: připnutá
   ref:
     sticky: Připnout

@@ -8,8 +8,8 @@ flarum-tags:
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'
-      delete_tag_button: 'Smazat štítek'
-      delete_tag_confirmation: 'Opravdu chcete smazat tento štítek? Diskuze s tímto štítkem smazány NEBUDOU.'
+      delete_tag_button: 'Odstranit štítek'
+      delete_tag_confirmation: 'Opravdu chcete odstranit tento štítek? Diskuze s tímto štítkem odstraněny NEBUDOU.'
       description_label: Popis
       hide_label: 'Skrýt z přehledu diskuzí'
       icon_label: '=> core.ref.icon'
@@ -53,6 +53,10 @@ flarum-tags:
       title: 'Vyberte štítky pro diskuzi'
     composer_discussion:
       choose_tags_link: '=> flarum-tags.ref.choose_tags'
+    deck:
+      column_label: Štítek
+      tag_label: Štítek
+      tag_placeholder: 'Hledat štítek'
     discussion_controls:
       edit_tags_button: 'Upravit štítky'
     header:
@@ -69,7 +73,12 @@ flarum-tags:
     tag:
       meta_description_text: 'Všechny diskuze se štítkem {tag}'
   lib:
-    deleted_tag_text: 'Smazaný štítek'
+    deleted_tag_text: 'Odstraněný štítek'
+    gambits:
+      discussions:
+        tag:
+          hint: 'název štítku, seznam názvů oddělených čárkou, nebo „untagged“'
+          key: štítek
     tag_selection_modal:
       bypass_requirements: 'Obejít požadavky na štítky'
       choose_primary_placeholder: '{count, plural, one {Vyberte hlavní štítek} other {Vyberte # hlavních štítků}}'

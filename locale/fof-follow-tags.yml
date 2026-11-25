@@ -2,16 +2,44 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-follow-tags/cs/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        newDiscussionInTag: 'Nové diskuze ve sledovaných štítcích'
+        newDiscussionTag: 'Diskuze přeřazené do sledovaných štítků'
+        newPostInTag: 'Nové příspěvky ve sledovaných štítcích'
 fof-follow-tags:
   admin:
     settings:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Výchozí filtrování sledovaných stránek'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+  email:
+    newDiscussionInTag:
+      html:
+        body: "{actor_display_name} založil diskuzi ve štítku, který sledujete: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} založil diskuzi ve štítku, který sledujete: {discussion_title}\n\nNovou diskuzi si můžete prohlédnout na tomto odkazu:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Štítek | Nová diskuze] {title}'
+    newDiscussionTag:
+      html:
+        body: "{actor_display_name} právě přeřadil diskuzi od uživatele {author_display_name} do štítku, který sledujete: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} právě přeřadil diskuzi od uživatele {author_display_name} do štítku, který sledujete: {discussion_title}\n\nDiskuzi si můžete prohlédnout na tomto odkazu:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Štítek | Změna štítku] {title}'
+    newPostInTag:
+      html:
+        body: "{actor_display_name} přispěl do diskuze ve štítku, který sledujete: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "{actor_display_name} přispěl do diskuze ve štítku, který sledujete: {discussion_title}\n\nNovou aktivitu si můžete prohlédnout na tomto odkazu:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Štítek | Nový příspěvek] {title}'
   forum:
     badge:
       following_tag_tooltip: Sledování
       lurking_tag_tooltip: Číhající
+    hero:
+      title: '=> flarum-subscriptions.forum.index.following_link'
     index:
       follow_tag_button: Sledovat
       following:
@@ -22,6 +50,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} změnil štítek'
       new_discussion_text: '{username} začal'
       new_post_text: '{username} přispěl'
+    prompt:
+      choose_button: 'Vybrat štítky ke sledování'
+      continue_button: 'Pokračovat na fórum'
+      later_button: 'Připomenout později'
+      modal_title: 'Vyberte štítky ke sledování'
     settings:
       notify_new_discussion_label: 'Někdo vytvoří diskuzi se štítkem, který sleduji'
       notify_new_discussion_tag_label: 'Někdo znovu označí diskuzi štítkem, který sleduji'
@@ -30,6 +63,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Být upozorněn na všechny nové diskuze.'
+      header: 'Odběr štítku {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Skrýt diskuse ze stránky Všechny diskuse.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -40,6 +74,8 @@ fof-follow-tags:
       not_following_text: 'Být upozorněn jen když jsem @zmíněn.'
       notify_alert_tooltip: 'Dostávat upozornění na nové diskuze nebo příspěvky ve fóru'
       notify_email_tooltip: 'Obdržet e-mail, když přibydou nové diskuze nebo příspěvky'
+      submit_button: 'Potvrdit odběr'
+      subscription_label: 'Vyberte úroveň odběru štítku {tagName}'
     user:
       settings:
         filter_label: 'Co se má ve výchozím nastavení zobrazovat na stránce Sledované'

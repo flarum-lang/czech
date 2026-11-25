@@ -9,8 +9,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Důvod pozastavení nebyl uveden.'
     suspended:
+      html:
+        body: 'Na fóru {forumTitle} jste byli pozastaveni z následujícího důvodu:'
+      plain:
+        body: "Byli jste pozastaveni z následujícího důvodu:\n\n---\n{suspension_message}\n---\n"
       subject: 'Váš účet byl pozastaven'
     unsuspended:
+      html:
+        body: 'Vaše pozastavení bylo zrušeno. Na fórum [{forumTitle}]({forum_url}) se můžete vrátit, kdykoli budete chtít.'
+      plain:
+        body: "Vaše pozastavení bylo zrušeno. Na fórum se můžete vrátit kliknutím na následující odkaz:\n\n{forum_url}\n"
       subject: 'Pozastavení vašeho účtu bylo zrušeno'
   forum:
     notifications:
@@ -37,3 +45,8 @@ flarum-suspend:
       suspended_tooltip: Pozastaven
     user_controls:
       suspend_button: Pozastavit
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: pozastavený

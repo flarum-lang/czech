@@ -6,6 +6,10 @@ fof-split:
   admin:
     permissions:
       split_discussion_label: 'Rozdělit příspěvky z diskuzí'
+  api:
+    errors:
+      end_before_start: 'Rozdělení musí končit na příspěvku, kterým začíná, nebo na pozdějším.'
+      first_post: 'Úvodní příspěvek diskuze nelze oddělit.'
   forum:
     modal:
       new_discussion_label: 'Zadejte název nové diskuze'
@@ -15,5 +19,6 @@ fof-split:
       was_split_from: '{count, plural, one {{count} příspěvek byl rozdělen z {target}.} few {{count} příspěvky byly rozděleny z {target}.} other {{count} příspěvků bylo rozděleno z {target}.}}'
       was_split_to: '{count, plural, one {{count} příspěvek byl rozdělený do {target}.} few {{count} příspěvky byly rozděleny do {target}.} other {{count} příspěvků bylo rozděleno do {target}.}}'
     split:
+      cancel: 'Zrušit rozdělení'
       from: 'Rozdělit odtud'
       to: 'Rozdělit sem'

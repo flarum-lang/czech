@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-merge-discussions/cs/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        discussionMerged: 'Sloučení vašich diskuzí'
 fof-merge-discussions:
   admin:
     permissions:
@@ -13,10 +18,13 @@ fof-merge-discussions:
       deleting_failed: 'Nepodařilo se odstranit prázdné diskuze.'
       fixing_posts_number_failed: 'Nepodařilo se opravit číslování příspěvků.'
       fixing_posts_number_meta_failed: 'Nepodařilo se opravit číslování příspěvků.'
+      into_itself: 'Diskuzi nelze sloučit samu se sebou.'
       merging_failed: 'Nepodařilo se sloučit diskuze.'
+      redirecting_failed: 'Přesměrování sloučených diskuzí se nezdařilo.'
       updating_failed: 'Nepodařilo se aktualizovat podrobnosti diskuze.'
   email:
     merged:
+      body: "Vaši diskuzi {merged_discussion_title} sloučil uživatel {actor_display_name} do diskuze {discussion_title}.\n\nZobrazit ji můžete zde: {discussion_url}\n"
       subject: 'Vaše diskuze "{merged_discussion_title}" byla sloučena'
   forum:
     discussion:
@@ -27,10 +35,14 @@ fof-merge-discussions:
       ordering_date_label: 'Sloučit příspěvky podle data vytvoření'
       ordering_heading: 'Pořadí sloučení'
       ordering_suffix_help: 'Příspěvky zařazené do cílové diskuze budou přidány na konec diskuze'
+      ordering_suffix_label: 'Přidat sloučené příspěvky na konec diskuze'
+      preview_truncated: 'Zobrazeny příspěvky {from} až {to} z {total}.'
+      search_discussions_placeholder: 'Hledat diskuze…'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Sloučit diskuze'
       type_heading: 'Typ sloučení'
     notification:
+      discussion_merged: 'Vaši diskuzi {oldTitle} sloučil uživatel {username} s touto diskuzí.'
       preferences:
         discussion_merged: 'Někdo sloučí jednu z mých diskuzí s jinou'
   ref:

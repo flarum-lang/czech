@@ -7,9 +7,9 @@ fof-linguist:
     buttons:
       apply: Použít
       copy-original: 'Kopírovat původní text'
-      delete-all: 'Smazat všechny překlady'
+      delete-all: 'Odstranit všechny překlady'
       delete-all-confirm: "Tím odstraníte VŠECHNY vlastní překlady {count}. Ujistěte se, že jste vyexportovali nebo zálohovali vše, co jste si chtěli ponechat.\n"
-      delete-redundant: 'Smazat nadbytečné překlady'
+      delete-redundant: 'Odstranit nadbytečné překlady'
       delete-redundant-confirm: "Tím se odstraní překlady {count}, které mají stejné původní a vlastní hodnoty. To může být užitečné při čištění po aktualizaci jazykového balíčku.\n"
       load-more: 'Načíst další'
       reset: 'Obnovit původní'
@@ -94,3 +94,6 @@ fof-linguist:
       export: Exportovat
       import: Importovat
       strings: Překlady
+  api:
+    cannot_change_key_or_locale: 'Klíč a jazyk uloženého překladu nelze změnit.'
+    invalid_icu_syntax: 'Překlad nemá platnou syntaxi ICU MessageFormat, například není uzavřená složená závorka.'

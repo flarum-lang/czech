@@ -14,6 +14,8 @@ fof-user-directory:
   forum:
     header:
       back_to_user_directory_tooltip: 'Zpět na adresář uživatelů'
+    hero:
+      title: '=> fof-user-directory.forum.page.nav'
     page:
       empty_text: 'Nenašli jsme žádného uživatele, který by odpovídal vašemu hledání.'
       filter_button: 'Skupiny filtrů'
@@ -40,5 +42,7 @@ fof-user-directory:
       newest: Nejnovější
       not_specified: 'Použít výchozí nastavení Flarum'
       oldest: Nejstarší
+      seen_oldest: 'Nejdéle neaktivní'
+      seen_recent: 'Naposledy online'
       username_az: 'Uživatelské jméno (a-z)'
       username_za: 'Uživatelské jméno (z-a)'

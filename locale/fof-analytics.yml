@@ -27,3 +27,16 @@ fof-analytics:
         email: 'Sledovat na základě e-mailové adresy'
         none: Nesledovat
         username: 'Sledovat na základě uživatelského jména'
+  forum:
+    consent:
+      cookies:
+        ga: 'Rozlišuje návštěvy, aby se opakované návštěvy nepočítaly jako noví lidé.'
+        gat: 'Omezuje, jak často se data odesílají do Googlu.'
+        gid: 'Rozlišuje návštěvy, uchovává se 24 hodin.'
+        matomo_sessid: 'Udržuje vaši relaci Matomo, dokud se nahrává.'
+        pk_cvar: 'Ukládá vlastní údaje o aktuální návštěvě.'
+        pk_hsr: 'Zaznamenává aktuální návštěvu pro teplotní mapy a nahrávání relací.'
+        pk_id: 'Rozlišuje návštěvy, aby se opakované návštěvy nepočítaly jako noví lidé.'
+        pk_ref: 'Zaznamenává, jak jste se na web dostali.'
+        pk_ses: 'Sleduje aktuální návštěvu, uchovává se 30 minut.'
+        utm: 'Starší cookies Google Analytics, které zaznamenávají, jak jste se na web dostali.'

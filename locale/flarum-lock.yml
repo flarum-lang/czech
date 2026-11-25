@@ -19,3 +19,8 @@ flarum-lock:
       discussion_unlocked_text: '{username} odemkl diskuzi {time}.'
     settings:
       notify_discussion_locked_label: 'Někdo zamkne diskuzi, kterou jsem založil'
+  lib:
+    gambits:
+      discussions:
+        locked:
+          key: zamčená
