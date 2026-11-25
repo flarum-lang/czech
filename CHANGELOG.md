@@ -2,6 +2,51 @@ CHANGELOG
 =========
 
 
+2.0.9 (2026-11-25)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (158 added, 18 changed).
+* Updated validation translations (107 added).
+
+
+**Added support for new extensions**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (3% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (8% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/flags`](https://github.com/flarum/flags) (1 added, 93% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (2 added, 89% complete)
+* [`flarum/lock`](https://github.com/flarum/lock) (1 added, 81% complete)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (8 added, 85% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 42% complete)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (5 added, 87% complete)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (5 added, 93% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (5 added, 3 changed, 79% complete)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (10 added, 90% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (15 added, 2 changed, 100% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (20 added, 79% complete)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (8 added, 80% complete)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (2 added, 2 changed, 94% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 added, 2 changed, 45% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (8 added, 75% complete)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (1 added, 100% complete)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages) (2 changed, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (86 added, 3 changed, 81% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (6 added, 53% complete)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (3 added, 84% complete)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (3 added, 2 changed, 91% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (29 added, 6 changed, 63% complete)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) (3 added, 96% complete)
+
+
+All changes: [2.0.8...2.0.9](https://github.com/flarum-lang/czech/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-11-15)
 ------------------
 
