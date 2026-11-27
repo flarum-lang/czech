@@ -1,23 +1,27 @@
 {
 	"name": "flarum-lang/czech",
+	"description": "Czech Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Czech language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/czech",
 	"keywords": [
-		"locale",
-		"flarum",
-		"cs-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/czech",
 	"license": "MIT",
+	"authors": [
+		{
+			"name": "YelehaUwU",
+			"homepage": "https://github.com/YelehaUwU",
+			"role": "Maintainer"
+		}
+	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/czech/issues",
+		"forum": "https://discuss.flarum.org/d/35138",
 		"source": "https://github.com/flarum-lang/czech"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Czech",
@@ -30,13 +34,7 @@
 		},
 		"flarum-locale": {
 			"code": "cs",
-			"title": "Czech"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Čeština"
 		}
 	}
 }
